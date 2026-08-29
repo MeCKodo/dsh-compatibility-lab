@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "f7e4398865b37505acda5d57f2a50060c4bbe8e823332293c6c976e17d3dc1d1",
+  "plugin": {
+    "name": "keleus/deepseek-pet",
+    "slug": "keleus-deepseek-pet",
+    "install": "dsh plugin --profile web add deepseek-pet@0.1.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "deepseek-pet"
+    ],
+    "dependencies": [
+      "deepseek-pet"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5ed60279e495716c21a8d6d1a38c763959e4e2e5dc14d3aa9831e2bf01f5066f",
+  "testedAt": "2026-08-29T17:21:19.373Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "d4eeb7683d15ac2dac4a215e7945d2ed53ff8318",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "2c3f96e8495a716befabcfd757f79156f8e84ec020a3511e4d73d1b37cf5f49c",
+  "plugin": {
+    "name": "ChenyuHeee/dsh-browser-playwright",
+    "slug": "chenyuheee-dsh-browser-playwright",
+    "install": "dsh plugin --profile web add dsh-browser-playwright@0.1.1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-browser-playwright"
+    ],
+    "dependencies": [
+      "dsh-browser-playwright"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "bdd76c03a537610b14bcfd5f0d757aa42ee92e3039e1e70caaa567274e6930fd",
+  "testedAt": "2026-08-29T17:22:35.201Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "d4eeb7683d15ac2dac4a215e7945d2ed53ff8318",
+    "version": "1.0.0"
+  }
+}

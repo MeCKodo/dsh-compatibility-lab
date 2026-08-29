@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "072d4d910a619d0d540d35cc19db940db78c97b52a39771c9130a0990842fd92",
+  "plugin": {
+    "name": "crazywoola/dsh-balance",
+    "slug": "crazywoola-dsh-balance",
+    "install": "dsh plugin --profile web add @pinkbanana/dsh-balance@0.5.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@pinkbanana/dsh-balance"
+    ],
+    "dependencies": [
+      "@pinkbanana/dsh-balance"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3a24cc42e733fe57f2f56bc31f13bd065fe96120a3984468a01eca39c6450ca5",
+  "testedAt": "2026-08-29T17:20:12.976Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "d4eeb7683d15ac2dac4a215e7945d2ed53ff8318",
+    "version": "1.0.0"
+  }
+}

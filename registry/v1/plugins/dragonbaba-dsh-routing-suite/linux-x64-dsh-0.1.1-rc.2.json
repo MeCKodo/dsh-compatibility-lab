@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "42817f0a6de672f89cd2f7960acea5c4dee4e784159357e88d9323c73de786fe",
+  "plugin": {
+    "name": "dragonbaba/dsh-routing-suite",
+    "slug": "dragonbaba-dsh-routing-suite",
+    "install": "dsh plugin --profile web add dsh-routing-suite@0.1.2",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-routing-suite"
+    ],
+    "dependencies": [
+      "dsh-routing-suite"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "57abe91cde36a3df02b1568b2b06182259ec8a35c1c0f31a5a93f6a89b84ba2a",
+  "testedAt": "2026-08-29T17:23:50.166Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "d4eeb7683d15ac2dac4a215e7945d2ed53ff8318",
+    "version": "1.0.0"
+  }
+}

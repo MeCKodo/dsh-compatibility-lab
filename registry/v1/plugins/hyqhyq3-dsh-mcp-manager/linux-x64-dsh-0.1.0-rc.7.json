@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "47cf0fad3a3dbb3d92dc18dd17ea74ca0b83b4a871d5ad8a6d9831864c411bd0",
+  "plugin": {
+    "name": "hyqhyq3/dsh-mcp-manager",
+    "slug": "hyqhyq3-dsh-mcp-manager",
+    "install": "dsh plugin --profile web add dsh-mcp-manager@0.6.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "not-a-layer",
+  "detail": "package installed but does not declare a DSH bundle layer",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "not-applicable"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [
+      "dsh-mcp-manager"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8783b969196a73260baecbf54173dac30de302292019ad1479c2e4f8e90937a7",
+  "testedAt": "2026-08-29T17:22:26.432Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "d4eeb7683d15ac2dac4a215e7945d2ed53ff8318",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c2be3a0aced1c587eace477b23a9e28a1572f4ff0619936bde2ee2bdfaed2520",
+  "plugin": {
+    "name": "feiyang-dev/dsh-usage-plugin",
+    "slug": "feiyang-dev-dsh-usage-plugin",
+    "install": "dsh plugin --profile web add @feiyang666/dsh-usage-plugin@1.14.1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@feiyang666/dsh-usage-plugin"
+    ],
+    "dependencies": [
+      "@feiyang666/dsh-usage-plugin"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7050c04848cb5a0754268c9b0723503ba825e6924e0f10267beca4be03e563f4",
+  "testedAt": "2026-08-29T17:21:24.135Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "d4eeb7683d15ac2dac4a215e7945d2ed53ff8318",
+    "version": "1.0.0"
+  }
+}
