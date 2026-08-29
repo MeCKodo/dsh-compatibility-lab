@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "21ac60345cbf0e066f13737260594b7a413c4d73a01b3f6652b52b204fadc470",
+  "plugin": {
+    "name": "13071301808/dsh-composer-expand",
+    "slug": "13071301808-dsh-composer-expand",
+    "install": "dsh plugin --profile web add dsh-composer-expand",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-composer-expand"
+    ],
+    "dependencies": [
+      "dsh-composer-expand"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "37b9fec06aaf93026113dfe34f23c30298c6dd2da6b1f1ffef1b3e39010c313d",
+  "testedAt": "2026-08-29T21:11:35.055Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f5d19daf95ffa439cc308b5f720ae504c7722e94",
+    "version": "1.0.0"
+  }
+}

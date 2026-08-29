@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "020a2cb499dd37e686164975862ebee4b6d827f304a80658328cafc69a6e79ad",
+  "plugin": {
+    "name": "0imzero/dsh-workspace-menu",
+    "slug": "0imzero-dsh-workspace-menu",
+    "install": "dsh plugin --profile web add github:0imzero/dsh-workspace-menu#afd55510f82821cde60a8364e42f752e244b5b31",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@dsh-external/dsh-workspace-menu"
+    ],
+    "dependencies": [
+      "@dsh-external/dsh-workspace-menu"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "a01c10242e2714eca6f17a40d5f75248e84c519b9cee422a5eb9c6dc04a941bf",
+  "testedAt": "2026-08-29T21:10:21.109Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f5d19daf95ffa439cc308b5f720ae504c7722e94",
+    "version": "1.0.0"
+  }
+}

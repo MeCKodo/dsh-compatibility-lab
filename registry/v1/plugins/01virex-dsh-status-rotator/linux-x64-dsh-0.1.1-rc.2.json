@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "891549355e76f7c458c5016dd3adccb831a91c2561feb1ef3102357ed2aceb87",
+  "plugin": {
+    "name": "01Virex/dsh-status-rotator",
+    "slug": "01virex-dsh-status-rotator",
+    "install": "dsh plugin --profile web add dsh-status-rotator",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-status-rotator"
+    ],
+    "dependencies": [
+      "dsh-status-rotator"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "ad561e8df0a279d871cee5478cfe51af120e29c252d5c7f47b08f761c16a7e78",
+  "testedAt": "2026-08-29T21:09:13.346Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f5d19daf95ffa439cc308b5f720ae504c7722e94",
+    "version": "1.0.0"
+  }
+}

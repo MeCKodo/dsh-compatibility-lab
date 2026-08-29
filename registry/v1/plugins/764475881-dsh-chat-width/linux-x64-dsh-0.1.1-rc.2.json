@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ad6c5b17406bc39b10a179fe9964b2933a4da6080e1e747556d587b6ff236e20",
+  "plugin": {
+    "name": "764475881/dsh-chat-width",
+    "slug": "764475881-dsh-chat-width",
+    "install": "dsh plugin --profile web add github:764475881/dsh-chat-width",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-chat-width"
+    ],
+    "dependencies": [
+      "dsh-chat-width"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "496fcf5c6bf41117c1135fff4c8c1619220ad32f70941154353b5e3dc2de04d5",
+  "testedAt": "2026-08-29T21:16:11.298Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f5d19daf95ffa439cc308b5f720ae504c7722e94",
+    "version": "1.0.0"
+  }
+}

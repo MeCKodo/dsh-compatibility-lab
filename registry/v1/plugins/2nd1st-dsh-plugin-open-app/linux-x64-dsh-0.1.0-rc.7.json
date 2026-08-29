@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "e545854d0776d748bf7693dd98ab625fbdd43f60b80b55911ca74ca915777206",
+  "plugin": {
+    "name": "2nd1st/dsh-plugin-open-app",
+    "slug": "2nd1st-dsh-plugin-open-app",
+    "install": "dsh plugin --profile web add @2nd1st/dsh-plugin-open-app",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@2nd1st/dsh-plugin-open-app"
+    ],
+    "dependencies": [
+      "@2nd1st/dsh-plugin-open-app"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "9ed75e35374669ebf259c09ae681c488793566067dbf523e98c50b301e099f58",
+  "testedAt": "2026-08-29T21:13:49.687Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f5d19daf95ffa439cc308b5f720ae504c7722e94",
+    "version": "1.0.0"
+  }
+}
