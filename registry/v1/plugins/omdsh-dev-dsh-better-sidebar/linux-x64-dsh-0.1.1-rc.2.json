@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "8ee394bdbb61632e2e95e5e105ff55664b5f5d63b5f65fdd38a5ecf2e4aff341",
+  "plugin": {
+    "name": "omdsh-dev/DSH-better-sidebar",
+    "slug": "omdsh-dev-dsh-better-sidebar",
+    "install": "dsh plugin --profile web add dsh-better-sidebar@0.17.1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-better-sidebar"
+    ],
+    "dependencies": [
+      "dsh-better-sidebar"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "a3fb8dc5bf5b6ff39e6385827e9a4c47427a2afac870820ae0307b7aa1ef2f4e",
+  "testedAt": "2026-08-29T17:11:05.499Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+    "version": "1.0.0"
+  }
+}

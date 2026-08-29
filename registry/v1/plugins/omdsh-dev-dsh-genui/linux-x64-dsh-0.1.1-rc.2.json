@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0c7bceeee4b2b9550e5629851d5f05cd48a57aae2dbd26a4337ae1abc4288cfa",
+  "plugin": {
+    "name": "omdsh-dev/dsh-genui",
+    "slug": "omdsh-dev-dsh-genui",
+    "install": "dsh plugin --profile web add @changfenhuang/dsh-genui@0.9.6",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@changfenhuang/dsh-genui"
+    ],
+    "dependencies": [
+      "@changfenhuang/dsh-genui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "bcd16fca043f5373be3ac6f1803e94e3e297e68bef54c0996289d83ff9ea2ede",
+  "testedAt": "2026-08-29T17:12:20.730Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+    "version": "1.0.0"
+  }
+}

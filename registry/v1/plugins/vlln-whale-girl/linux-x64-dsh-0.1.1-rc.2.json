@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c061d6679ebbcce101f8561ef8682de257506874a9bc9598eaad61405f404670",
+  "plugin": {
+    "name": "vlln/whale-girl",
+    "slug": "vlln-whale-girl",
+    "install": "dsh plugin --profile web add whale-girl@0.1.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "whale-girl"
+    ],
+    "dependencies": [
+      "whale-girl"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e6acfffb2ae0f31a9249d2ed58e45fbc7a61b715fbeb0180750b203f1a04ace0",
+  "testedAt": "2026-08-29T17:15:53.908Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+    "version": "1.0.0"
+  }
+}

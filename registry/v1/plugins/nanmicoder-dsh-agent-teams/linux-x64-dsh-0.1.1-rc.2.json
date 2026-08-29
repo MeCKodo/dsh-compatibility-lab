@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0d2b93c61a4463b27afee761cb315ce364f986dc02150915909772f6fecee765",
+  "plugin": {
+    "name": "NanmiCoder/dsh-agent-teams",
+    "slug": "nanmicoder-dsh-agent-teams",
+    "install": "dsh plugin --profile web add @nanmicoder/dsh-agent-teams@0.1.14",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@nanmicoder/dsh-agent-teams"
+    ],
+    "dependencies": [
+      "@nanmicoder/dsh-agent-teams"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "cfa6da6ca9442f95876ce6162d4f027f87d146132168c68885a0289a6a339e92",
+  "testedAt": "2026-08-29T17:13:47.391Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+    "version": "1.0.0"
+  }
+}

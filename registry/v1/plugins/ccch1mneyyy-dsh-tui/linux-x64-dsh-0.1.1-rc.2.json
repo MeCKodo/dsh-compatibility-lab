@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9f68f53d1b24728ee24b57b3ebb02ec97d61f6af4c3449985dcdb9ffc0d92a79",
+  "plugin": {
+    "name": "ccch1mneyyy/dsh-TUI",
+    "slug": "ccch1mneyyy-dsh-tui",
+    "install": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui@0.9.3",
+    "profile": "dsh-tui"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "boot-failed",
+  "detail": "registered plugin caused the profile help surface to fail during boot",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "failed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-harness-tui/dsh-tui"
+    ],
+    "dependencies": [
+      "@deepseek-harness-tui/dsh-tui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d74031ee60e0e5bce669ab5c5473336295f35bacf95a0357cd90cb95278de0a7",
+  "testedAt": "2026-08-29T17:10:55.275Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+    "version": "1.0.0"
+  }
+}

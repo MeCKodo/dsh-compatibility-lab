@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "f6de5ee58521ec319c4e531c8595fa48251cb16c8d0769ac969819b71a6cfa4c",
+  "plugin": {
+    "name": "flymysql/dsh-remote",
+    "slug": "flymysql-dsh-remote",
+    "install": "dsh plugin --profile web add dsh-remote@0.8.8",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-remote"
+    ],
+    "dependencies": [
+      "dsh-remote"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "53f80826ba3d272454b1b4e6e0e8404de856670fba032e5281eca0526c42626e",
+  "testedAt": "2026-08-29T17:13:32.436Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+    "version": "1.0.0"
+  }
+}
