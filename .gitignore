@@ -1,0 +1,4 @@
+work/
+incoming/
+*.log
+.DS_Store

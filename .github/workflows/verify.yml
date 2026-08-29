@@ -1,0 +1,120 @@
+name: Verify DSH plugin compatibility
+
+on:
+  schedule:
+    - cron: '37 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Retest even when a fresh matching receipt exists
+        type: boolean
+        default: false
+      max_jobs:
+        description: Maximum plugin-environment jobs in this run
+        type: number
+        default: 20
+
+concurrency:
+  group: compatibility-verification
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    name: Plan incremental verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      count: ${{ steps.plan.outputs.count }}
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - id: plan
+        name: Compare catalog with fresh receipts
+        env:
+          FORCE: ${{ inputs.force || 'false' }}
+          MAX_JOBS: ${{ inputs.max_jobs || '20' }}
+        run: node scripts/plan.mjs
+
+  validate:
+    name: ${{ matrix.spec.plugin.slug }} on ${{ matrix.spec.environment.dshVersion }}
+    needs: plan
+    if: ${{ needs.plan.outputs.count != '0' }}
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Run one plugin in a disposable, unprivileged container
+        env:
+          SPEC_JSON: ${{ toJSON(matrix.spec) }}
+        run: node scripts/validate-one.mjs
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: receipt-${{ matrix.spec.plugin.slug }}-${{ matrix.spec.environment.id }}
+          path: work/receipts/*.json
+          if-no-files-found: error
+          retention-days: 2
+
+  publish:
+    name: Publish validated receipts
+    needs: [plan, validate]
+    if: ${{ always() && needs.plan.result == 'success' && needs.plan.outputs.count != '0' && needs.validate.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      DEPLOY_HOOK_URL: ${{ secrets.DEPLOY_HOOK_URL }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          pattern: receipt-*
+          path: incoming
+          merge-multiple: true
+      - name: Validate and merge bounded JSON receipts
+        run: |
+          node scripts/publish-results.mjs
+          node scripts/validate-registry.mjs
+      - name: Commit public evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add registry/v1
+          if git diff --cached --quiet; then
+            echo 'no publishable evidence changed'
+            exit 0
+          fi
+          git commit -m 'chore: publish compatibility receipts'
+          git push
+      - name: Trigger the private site build
+        if: ${{ env.DEPLOY_HOOK_URL != '' }}
+        run: curl --fail --show-error --silent --request POST "$DEPLOY_HOOK_URL"

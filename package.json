@@ -1,0 +1,16 @@
+{
+  "name": "dsh-compatibility-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "plan": "node scripts/plan.mjs",
+    "validate:one": "node scripts/validate-one.mjs",
+    "publish": "node scripts/publish-results.mjs",
+    "validate:registry": "node scripts/validate-registry.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
