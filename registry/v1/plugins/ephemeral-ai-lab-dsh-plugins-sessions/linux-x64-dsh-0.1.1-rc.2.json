@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0ddad875612552e3d4fdc4199367c468eed01a0c6830d3cac154c79119dcf814",
+  "plugin": {
+    "name": "Ephemeral-AI-Lab/dsh-plugins/sessions",
+    "slug": "ephemeral-ai-lab-dsh-plugins-sessions",
+    "install": "dsh plugin --profile web add dsh-sessions@0.1.1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d9240baff885fc6e0196c6166de44c5d9a7f80f61bb852bce9379efd60db052d",
+  "testedAt": "2026-08-29T10:04:18.314Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "33fd581fdf2863a67569d8cdcb9aa7c31d9da269",
+    "version": "1.0.0"
+  }
+}

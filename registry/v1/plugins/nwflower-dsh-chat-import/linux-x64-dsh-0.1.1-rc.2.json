@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "fc67fed36138a89ca93d950df6cb0d4a324f534399f9d0074e8d7546700ffccf",
+  "plugin": {
+    "name": "Nwflower/dsh-chat-import",
+    "slug": "nwflower-dsh-chat-import",
+    "install": "dsh plugin --profile web add dsh-chat-import@0.1.1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-chat-import"
+    ],
+    "dependencies": [
+      "dsh-chat-import"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7b59256ffb19033fee1b9aa5b90127d8f624522ac1ab31480e46d54a789551fa",
+  "testedAt": "2026-08-29T10:01:40.585Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "33fd581fdf2863a67569d8cdcb9aa7c31d9da269",
+    "version": "1.0.0"
+  }
+}

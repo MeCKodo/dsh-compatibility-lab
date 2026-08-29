@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "2128cc2dc523dec379b09e679130c082c177a1950824df742037236e9c52df75",
+  "plugin": {
+    "name": "ZSeven-W/dsh-openpencil",
+    "slug": "zseven-w-dsh-openpencil",
+    "install": "dsh plugin --profile web add @zseven-w/dsh-openpencil@0.1.0-rc.1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@zseven-w/dsh-openpencil"
+    ],
+    "dependencies": [
+      "@zseven-w/dsh-openpencil"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "aaa2f7d28bac41d14ad29a04da6d6fa47be0ccb73ca0e44fb2915daba0ec4563",
+  "testedAt": "2026-08-29T10:00:47.869Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "33fd581fdf2863a67569d8cdcb9aa7c31d9da269",
+    "version": "1.0.0"
+  }
+}

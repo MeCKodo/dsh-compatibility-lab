@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "66ee9f445ed8096733cfa4fd970be0765f73355b32c954a559ade490b7240be6",
+  "plugin": {
+    "name": "Ephemeral-AI-Lab/dsh-plugins/codex-shell",
+    "slug": "ephemeral-ai-lab-dsh-plugins-codex-shell",
+    "install": "dsh plugin --profile web add dsh-codex-shell@0.1.2",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-codex-shell"
+    ],
+    "dependencies": [
+      "dsh-codex-shell"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3c22d93578aa5ea2a4bd294de2cb5d95bc06d21124569cafe66e07624d9d57ee",
+  "testedAt": "2026-08-29T10:01:53.487Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "33fd581fdf2863a67569d8cdcb9aa7c31d9da269",
+    "version": "1.0.0"
+  }
+}
