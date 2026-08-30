@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "7191ea232c01ff79042d127b4ae264b403db6f1f7875cb4d43d3cbc0c444602e",
+  "plugin": {
+    "name": "AbelKeithsun/dsh-question-nav",
+    "slug": "abelkeithsun-dsh-question-nav",
+    "install": "dsh plugin --profile web add @luziyang2026/dsh-question-nav",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@luziyang2026/dsh-question-nav"
+    ],
+    "dependencies": [
+      "@luziyang2026/dsh-question-nav"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "f1000cc4e014e9aabd5fe48805041b5db83b62e60d57343250d0c0d847f14fd3",
+  "testedAt": "2026-08-30T05:50:58.756Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ac49272a9808813713d834383c2be217297550b8",
+    "version": "1.0.0"
+  }
+}

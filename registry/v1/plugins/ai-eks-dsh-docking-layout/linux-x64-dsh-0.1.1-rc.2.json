@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d1844fa3d6e35594491ead011fe71ceebdd44bc615adf39e2cf17688a6e1e5c9",
+  "plugin": {
+    "name": "ai-eks/dsh-docking-layout",
+    "slug": "ai-eks-dsh-docking-layout",
+    "install": "dsh plugin --profile web add github:ai-eks/dsh-docking-layout",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "73f3805cab15c8d7aabef8e63f40daac5eb1d41f832b030b5a0bf9b385d6c33e",
+  "testedAt": "2026-08-30T05:52:15.616Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ac49272a9808813713d834383c2be217297550b8",
+    "version": "1.0.0"
+  }
+}

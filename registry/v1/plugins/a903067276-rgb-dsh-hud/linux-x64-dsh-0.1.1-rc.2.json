@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "fb4cabc1210ab1a60bce753e674772bbf68723a1c2a279f0f97260f64a76353f",
+  "plugin": {
+    "name": "a903067276-rgb/dsh-hud",
+    "slug": "a903067276-rgb-dsh-hud",
+    "install": "dsh plugin --profile web add github:a903067276-rgb/dsh-hud#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-hud"
+    ],
+    "dependencies": [
+      "dsh-hud"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "0553f31bf79113fcbff592ce1f8b9dffa24614db4cf627e32623e93eb409f143",
+  "testedAt": "2026-08-30T05:49:03.700Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ac49272a9808813713d834383c2be217297550b8",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "20e5cc71dcda47883d6052bc1273204f1153d3050dcf0ebc650ecd7737a630b1",
+  "plugin": {
+    "name": "a179-sanae/dsh-auto-collapse",
+    "slug": "a179-sanae-dsh-auto-collapse",
+    "install": "dsh plugin --profile web add github:a179-sanae/dsh-auto-collapse#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-auto-collapse"
+    ],
+    "dependencies": [
+      "dsh-auto-collapse"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "1baedd74d50836d239d4e8c5c3b1922bab7c867b3a72fa1cb7559a793b746947",
+  "testedAt": "2026-08-30T05:46:11.662Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ac49272a9808813713d834383c2be217297550b8",
+    "version": "1.0.0"
+  }
+}

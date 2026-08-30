@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0af10d67e116794f0f6c5c2cea4d3978e373d5bee46b1dee710fe5f8afa877f5",
+  "plugin": {
+    "name": "AcidGr/dsh-web-mobile-fix",
+    "slug": "acidgr-dsh-web-mobile-fix",
+    "install": "dsh plugin --profile web add github:AcidGr/dsh-web-mobile-fix",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-web-mobile-fix"
+    ],
+    "dependencies": [
+      "dsh-web-mobile-fix"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "f558ea47fb633b5658c559121338e38e891d4ac47b86c3422bc4e00e3d6dbc5b",
+  "testedAt": "2026-08-30T05:51:15.271Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ac49272a9808813713d834383c2be217297550b8",
+    "version": "1.0.0"
+  }
+}

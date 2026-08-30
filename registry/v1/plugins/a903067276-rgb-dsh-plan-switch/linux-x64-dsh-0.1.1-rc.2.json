@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "480328324ed652a02cfbe5ac0974606896a56a018061236d478f1c85833f7ff6",
+  "plugin": {
+    "name": "a903067276-rgb/dsh-plan-switch",
+    "slug": "a903067276-rgb-dsh-plan-switch",
+    "install": "dsh plugin --profile web add github:a903067276-rgb/dsh-plan-switch#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-plan-switch"
+    ],
+    "dependencies": [
+      "dsh-plan-switch"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "6246bf0b0692d60b47caafa69a66ec7d261f58fb376ccacbcb6780a770e1f9ef",
+  "testedAt": "2026-08-30T05:50:03.334Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ac49272a9808813713d834383c2be217297550b8",
+    "version": "1.0.0"
+  }
+}
