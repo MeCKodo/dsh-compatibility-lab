@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "e9e4a296df05819571ea4912c003e19a04510f76d2719e7057225c62272434af",
+  "plugin": {
+    "name": "anzhaohao/DragView",
+    "slug": "anzhaohao-dragview",
+    "install": "dsh plugin --profile web add github:anzhaohao/DragView#6fbc1249e0c8c9629a8cb4c4055a3c831d972599",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-dragview"
+    ],
+    "dependencies": [
+      "dsh-dragview"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "ac40d1858fd7426faa2c5c0a2354065ff0662d6eddfe098e103b30674413c14f",
+  "testedAt": "2026-08-30T17:02:11.943Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c98ba13e4e3e663eb10ba141e36f6e97278b1d07",
+    "version": "1.0.0"
+  }
+}

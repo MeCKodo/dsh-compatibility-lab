@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "plugin": {
+    "name": "AlexYin-Tongji/dsh-ui-enhancer",
+    "slug": "alexyin-tongji-dsh-ui-enhancer",
+    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-ui-enhancer"
+    ],
+    "dependencies": [
+      "dsh-ui-enhancer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "0d65d7d2651650ea623203a3b8738b663cbbc438a023c218357dc36a34a637da",
+  "testedAt": "2026-08-30T16:58:15.335Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c98ba13e4e3e663eb10ba141e36f6e97278b1d07",
+    "version": "1.0.0"
+  }
+}

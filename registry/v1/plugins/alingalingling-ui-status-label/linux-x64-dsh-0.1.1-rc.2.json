@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "080328bc51f96d5f7ab13c39aff96eae8667b92839e7e934c76835c44d268c1d",
+  "plugin": {
+    "name": "alingalingling/ui-status-label",
+    "slug": "alingalingling-ui-status-label",
+    "install": "dsh plugin --profile web add github:alingalingling/ui-status-label",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "323d91c0fe3fe03a83b80a9cf17b5250d048ca023894233412e62d048ce6b38e",
+  "testedAt": "2026-08-30T16:59:32.507Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c98ba13e4e3e663eb10ba141e36f6e97278b1d07",
+    "version": "1.0.0"
+  }
+}

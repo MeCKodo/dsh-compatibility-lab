@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "f0165762396cc506505012d1dbc9b1ce2f17f9091e34ba9402cb501ef20409a6",
+  "plugin": {
+    "name": "asd13006/dsh-multi-lang-ui",
+    "slug": "asd13006-dsh-multi-lang-ui",
+    "install": "dsh plugin --profile web add dsh-multi-lang-ui",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e2eb6756061e0b3281b09b1b9fa573121655536d5a504b6628c69e3151577f71",
+  "testedAt": "2026-08-30T17:03:20.301Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c98ba13e4e3e663eb10ba141e36f6e97278b1d07",
+    "version": "1.0.0"
+  }
+}

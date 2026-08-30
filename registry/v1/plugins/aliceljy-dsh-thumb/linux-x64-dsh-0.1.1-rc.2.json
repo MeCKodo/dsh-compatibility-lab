@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "41c0f2f9e11604642e5817cdcbd4aa460ec1f3326b7a70093848d8374ba65166",
+  "plugin": {
+    "name": "AliceLJY/dsh-thumb",
+    "slug": "aliceljy-dsh-thumb",
+    "install": "dsh plugin --profile web add github:AliceLJY/dsh-thumb",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-thumb"
+    ],
+    "dependencies": [
+      "dsh-thumb"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c9938c0b7bbff15790829739ce115807bc7cc23e826011b96d022337286c1938",
+  "testedAt": "2026-08-30T16:58:44.010Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c98ba13e4e3e663eb10ba141e36f6e97278b1d07",
+    "version": "1.0.0"
+  }
+}

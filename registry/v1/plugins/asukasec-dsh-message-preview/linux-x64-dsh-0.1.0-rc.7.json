@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c8a188cd3121d7da2b4a94b8854258c45702d78e12bab1ded82b975ba0c15c03",
+  "plugin": {
+    "name": "asukasec/dsh-message-preview",
+    "slug": "asukasec-dsh-message-preview",
+    "install": "dsh plugin --profile web add github:asukasec/dsh-message-preview#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-message-preview"
+    ],
+    "dependencies": [
+      "dsh-message-preview"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "50a4007bae574bd1367842b22acd6b8db83b62c58611b82edd95cc71365e2a53",
+  "testedAt": "2026-08-30T17:04:09.468Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c98ba13e4e3e663eb10ba141e36f6e97278b1d07",
+    "version": "1.0.0"
+  }
+}
