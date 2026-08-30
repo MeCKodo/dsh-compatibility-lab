@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "db962ec5dbeda9b83ba1d135bde5dba8cb206007ea28b1029b86d4219de8c3fb",
+  "plugin": {
+    "name": "bearice/dsh-keep-awake",
+    "slug": "bearice-dsh-keep-awake",
+    "install": "dsh plugin --profile web add github:bearice/dsh-keep-awake#382696116d4a37f4b7754a2be0b5d5de490b45fb",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-keep-awake"
+    ],
+    "dependencies": [
+      "dsh-keep-awake"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c55bf389c4755a2aa6fc70b8c9cc3fd8a99f1d3fe045b4a65f5a08c0865dd18a",
+  "testedAt": "2026-08-30T21:34:43.826Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

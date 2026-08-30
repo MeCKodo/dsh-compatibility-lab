@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "b7edf7724fd7b588e02bcc7bbce51032a0c513a76672a8a8ecc027af2e0e52e8",
+  "plugin": {
+    "name": "Baisbt/dsh-GreaterClarity-plugin",
+    "slug": "baisbt-dsh-greaterclarity-plugin",
+    "install": "dsh plugin --profile web add github:Baisbt/dsh-GreaterClarity-plugin",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "f9cd7413479a86eced5326b7065c66f862e6a5d5f9b2241f68e8444998dad524",
+  "testedAt": "2026-08-30T21:33:14.858Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

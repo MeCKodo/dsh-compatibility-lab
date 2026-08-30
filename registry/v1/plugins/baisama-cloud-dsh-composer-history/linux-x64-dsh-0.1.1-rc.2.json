@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "5fed48a9e36819c09f94f25f4e6a9b00933cff22e9768558c96c6c280ea01403",
+  "plugin": {
+    "name": "baisama-cloud/dsh-composer-history",
+    "slug": "baisama-cloud-dsh-composer-history",
+    "install": "dsh plugin --profile web add github:baisama-cloud/dsh-composer-history#ba257526edacb8f59c510782e60cb587dcc213d8",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-composer-history"
+    ],
+    "dependencies": [
+      "dsh-composer-history"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "b34cae4d4b84f2c496c8478dfe316a1e671bc52b330dab5e5ae8c48cff690945",
+  "testedAt": "2026-08-30T21:33:07.955Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

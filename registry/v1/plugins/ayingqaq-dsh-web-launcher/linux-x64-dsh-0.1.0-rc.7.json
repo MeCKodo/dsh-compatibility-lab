@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c033fc5048a58428426d1f09df67d3045ce94b4373f95669c2c27b83fce379cb",
+  "plugin": {
+    "name": "ayingQAQ/dsh-web-launcher",
+    "slug": "ayingqaq-dsh-web-launcher",
+    "install": "dsh plugin --profile web add github:ayingQAQ/dsh-web-launcher",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-web-launcher"
+    ],
+    "dependencies": [
+      "dsh-web-launcher"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e3eaf6e9724c584584ab1e80840fd4144b7d3de869eaa77bb8ef4df2e5513340",
+  "testedAt": "2026-08-30T21:30:29.832Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

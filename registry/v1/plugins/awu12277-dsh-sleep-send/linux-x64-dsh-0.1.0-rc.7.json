@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "e359f88a742031dcc876802c1b164799d2b0111eb653ab36f25bb76664a4f434",
+  "plugin": {
+    "name": "Awu12277/dsh-sleep-send",
+    "slug": "awu12277-dsh-sleep-send",
+    "install": "dsh plugin --profile web add github:Awu12277/dsh-sleep-send",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-sleep-send"
+    ],
+    "dependencies": [
+      "dsh-sleep-send"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "738b69a727de4f22220492f61070e4481f8a3658be3a1cd302fc798897603135",
+  "testedAt": "2026-08-30T21:29:22.186Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "911297c8c24def92eec33d9a16f34c4eaca868810f01ea652f7ff417bd13fdd8",
+  "plugin": {
+    "name": "ayahunter/dsh-trail",
+    "slug": "ayahunter-dsh-trail",
+    "install": "dsh plugin --profile web add dsh-trail",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "not-a-layer",
+  "detail": "package installed but does not declare a DSH bundle layer",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "not-applicable"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [
+      "dsh-trail"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "261dc43b6f6f5443a883122ddf888390f171ff546550c8d9a9b1eb699aacd1cb",
+  "testedAt": "2026-08-30T21:30:26.390Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

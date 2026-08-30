@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "71d9e7243b03952c20e96db2581bb1540ec3a87fad2e99610380f7d61ec82e27",
+  "plugin": {
+    "name": "biggerboy/dsh-conversation-anchors",
+    "slug": "biggerboy-dsh-conversation-anchors",
+    "install": "dsh plugin --profile web add github:biggerboy/dsh-conversation-anchors",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@biggerboy123/dsh-conversation-anchors"
+    ],
+    "dependencies": [
+      "@biggerboy123/dsh-conversation-anchors"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "df3cd056f37c54e2898e73568675e6b1d9d565f25aa7d5ad146abf2b075f1973",
+  "testedAt": "2026-08-30T21:34:26.503Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}

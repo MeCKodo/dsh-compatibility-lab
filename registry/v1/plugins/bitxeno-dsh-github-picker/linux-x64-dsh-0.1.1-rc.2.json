@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "04c1617204f494a3948d6e0ca2f8e71986fdbb7c3a1fa43269f44dff03afdf3b",
+  "plugin": {
+    "name": "bitxeno/dsh-github-picker",
+    "slug": "bitxeno-dsh-github-picker",
+    "install": "dsh plugin --profile web add dsh-github-picker",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-github-picker"
+    ],
+    "dependencies": [
+      "dsh-github-picker"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4ff958581e6a377940bb77bc733ea113a336191c4f09d9ffeb84a8300da23a6b",
+  "testedAt": "2026-08-30T21:37:04.882Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e261a17be40918131d5603906abed13bf506d76c",
+    "version": "1.0.0"
+  }
+}
