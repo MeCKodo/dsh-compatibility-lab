@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-08-30T05:52:27.150Z",
+  "generated": "2026-08-30T12:18:59.280Z",
   "source": {
     "catalog": "https://deepseekplugin.org/registry/v1/catalog.json"
   },
@@ -1484,6 +1484,746 @@
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/ai-eks-dsh-docking-layout/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "1e6ae7bebfdb6bbf467ef8d6520ee49a86f945457042dc07d6fc66a77fd36830",
+      "plugin": {
+        "name": "Aik358/dsh-anchored-monitor",
+        "slug": "aik358-dsh-anchored-monitor"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:11:40.099Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aik358-dsh-anchored-monitor/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "32f6a2a6e1b00fda2e997f5b0ed42ef237674f8e49d203d44d4f0afd2fcb4ff9",
+      "plugin": {
+        "name": "Aik358/dsh-anchored-monitor",
+        "slug": "aik358-dsh-anchored-monitor"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:11:37.320Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aik358-dsh-anchored-monitor/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "7837597f5ad2097d8a370a1a612b812c4ff6d84efbe6c32ee8559baa94b047a2",
+      "plugin": {
+        "name": "AikenFra/dsh-alive",
+        "slug": "aikenfra-dsh-alive"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:11:39.415Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aikenfra-dsh-alive/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "41354e2f6c4a17791bef8393c379443b08c499734cf810939977e30f57967c1e",
+      "plugin": {
+        "name": "AikenFra/dsh-alive",
+        "slug": "aikenfra-dsh-alive"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:12:51.917Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aikenfra-dsh-alive/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "28597628ea10e789c9403c102a00d6f26e97eb3ddfd5c5c145a54dbeb1e2f89b",
+      "plugin": {
+        "name": "AKIRACOD/dsh-drag-and-drop",
+        "slug": "akiracod-dsh-drag-and-drop"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:12:52.410Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/akiracod-dsh-drag-and-drop/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "2dd5631d1e2f1d362ab7696ef4bcdd0443fad66b24eaa682af251c65c5c2931b",
+      "plugin": {
+        "name": "AKIRACOD/dsh-drag-and-drop",
+        "slug": "akiracod-dsh-drag-and-drop"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:12:49.695Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/akiracod-dsh-drag-and-drop/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "f16b1fa6fea0803369932577c18e135708d11add2a7710ae4e6faa5e9abc939f",
+      "plugin": {
+        "name": "AKS1st/dock",
+        "slug": "aks1st-dock"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:14:22.430Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "b86fee4a4eef4ff8fa43b12a244417a1c0a3a5fdd4d0e72971b37dc1ae9c08a6",
+      "plugin": {
+        "name": "AKS1st/dock",
+        "slug": "aks1st-dock"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:14:12.232Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "a91deff10303eeb09fe92bb8e48c3d2477c26941307e6cfcc0af5c8a9c813490",
+      "plugin": {
+        "name": "AKS1st/dock-editor",
+        "slug": "aks1st-dock-editor"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:13:57.642Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-editor/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "07d802dc1bf64b6c8e8e7f3c67c2286d77289ca6734f1e6c4d80b006f0958482",
+      "plugin": {
+        "name": "AKS1st/dock-editor",
+        "slug": "aks1st-dock-editor"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:14:57.826Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-editor/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "6ca0a3cc1f4b6ac9a833824b705789ce3b6ca22c2665c78de8ee4572fb178d3a",
+      "plugin": {
+        "name": "AKS1st/dock-files",
+        "slug": "aks1st-dock-files"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:15:19.056Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-files/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "00cb386896efa0ff549c395ab425a05db7643e10765a8da88d430ca5edd9ce79",
+      "plugin": {
+        "name": "AKS1st/dock-files",
+        "slug": "aks1st-dock-files"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:15:29.932Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-files/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "84432d5b4e11228099f379a28d572d72d2c62fa7b727a446605ad5693b3abbaf",
+      "plugin": {
+        "name": "AKS1st/dock-git",
+        "slug": "aks1st-dock-git"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:16:09.119Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-git/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "10427ffc2f123eff13a9580f0db8b909e77058ce8fd08765ee08443fd2e29c1c",
+      "plugin": {
+        "name": "AKS1st/dock-git",
+        "slug": "aks1st-dock-git"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:16:23.291Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-git/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "3459e3fed3aa281d29221637fe1c9fdafb10634b894a7d343d1d613d6125c6ea",
+      "plugin": {
+        "name": "AKS1st/dock-images",
+        "slug": "aks1st-dock-images"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:16:32.805Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-images/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "92532babcd682be52d82eaadc4af9f0d0d45285854975fd4c2f30462199289f5",
+      "plugin": {
+        "name": "AKS1st/dock-images",
+        "slug": "aks1st-dock-images"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:17:16.094Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-images/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "815a43e66d5c2eb2ac0ebe21c5cd0344a1dfa4533d557d4ad596dc9ca01c653a",
+      "plugin": {
+        "name": "AKS1st/dock-markdown",
+        "slug": "aks1st-dock-markdown"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:17:31.802Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-markdown/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "a8d1146abacd4fcb1dd2c10a7418b37c31ec3231efc4d843eb9b81dcc5bc4cf0",
+      "plugin": {
+        "name": "AKS1st/dock-markdown",
+        "slug": "aks1st-dock-markdown"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:17:49.708Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dock-markdown/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "9706bfb81465173b5070af5953bc598e0e79505e81cd2e13b2d91f3343cbfa9b",
+      "plugin": {
+        "name": "AKS1st/dsh-sysmon",
+        "slug": "aks1st-dsh-sysmon"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:18:20.688Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dsh-sysmon/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "7ca70f25fc2b35ee591602d405344c5d5d561a4a34f1ba195511a50de3994592",
+      "plugin": {
+        "name": "AKS1st/dsh-sysmon",
+        "slug": "aks1st-dsh-sysmon"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-08-30T12:18:39.439Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/aks1st-dsh-sysmon/linux-x64-dsh-0.1.1-rc.2.json"
     },
     {
       "fingerprint": "e6f0872b6a08752158d7eb07a5c531cb916ae6b163f5262c5d2486c5efd6d828",

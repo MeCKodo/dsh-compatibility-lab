@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "7837597f5ad2097d8a370a1a612b812c4ff6d84efbe6c32ee8559baa94b047a2",
+  "plugin": {
+    "name": "AikenFra/dsh-alive",
+    "slug": "aikenfra-dsh-alive",
+    "install": "dsh plugin --profile web add dsh-alive",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-alive"
+    ],
+    "dependencies": [
+      "dsh-alive"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2d238457ed82855f114d924a6e34b90fbf307b14c81c4957b5bed0ab2281d298",
+  "testedAt": "2026-08-30T12:11:39.415Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "92532babcd682be52d82eaadc4af9f0d0d45285854975fd4c2f30462199289f5",
+  "plugin": {
+    "name": "AKS1st/dock-images",
+    "slug": "aks1st-dock-images",
+    "install": "dsh plugin --profile web add github:AKS1st/dock-images",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dock-images"
+    ],
+    "dependencies": [
+      "dock-images"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8ef22d01118bb40231eacdd894af8b282564617d6c1799825a34c1c1256dbfd6",
+  "testedAt": "2026-08-30T12:17:16.094Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+    "version": "1.0.0"
+  }
+}

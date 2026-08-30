@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "32f6a2a6e1b00fda2e997f5b0ed42ef237674f8e49d203d44d4f0afd2fcb4ff9",
+  "plugin": {
+    "name": "Aik358/dsh-anchored-monitor",
+    "slug": "aik358-dsh-anchored-monitor",
+    "install": "dsh plugin --profile web add @a9i5k4/dsh-anchored-monitor",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@a9i5k4/dsh-anchored-monitor"
+    ],
+    "dependencies": [
+      "@a9i5k4/dsh-anchored-monitor"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "81eaacdfd4c7ab09f1388531e23f46f56aad9420345e4c856db832da8b5409f5",
+  "testedAt": "2026-08-30T12:11:37.320Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+    "version": "1.0.0"
+  }
+}

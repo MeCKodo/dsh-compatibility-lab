@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "10427ffc2f123eff13a9580f0db8b909e77058ce8fd08765ee08443fd2e29c1c",
+  "plugin": {
+    "name": "AKS1st/dock-git",
+    "slug": "aks1st-dock-git",
+    "install": "dsh plugin --profile web add github:AKS1st/dock-git",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dock-git"
+    ],
+    "dependencies": [
+      "dock-git"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "31242bdb0a5a248969b7edd1980ec48dfa09a15cf820d8e5db729950c16b66ed",
+  "testedAt": "2026-08-30T12:16:23.291Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+    "version": "1.0.0"
+  }
+}

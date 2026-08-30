@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "07d802dc1bf64b6c8e8e7f3c67c2286d77289ca6734f1e6c4d80b006f0958482",
+  "plugin": {
+    "name": "AKS1st/dock-editor",
+    "slug": "aks1st-dock-editor",
+    "install": "dsh plugin --profile web add github:AKS1st/dock-editor",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dock-editor"
+    ],
+    "dependencies": [
+      "dock-editor"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c595edc6f3701908d84acf80a61080f8e8e6432b02db7abc0845c05106b00177",
+  "testedAt": "2026-08-30T12:14:57.826Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "387f01666f07a2ae1f6a875bafe493422c4dc1dc",
+    "version": "1.0.0"
+  }
+}
