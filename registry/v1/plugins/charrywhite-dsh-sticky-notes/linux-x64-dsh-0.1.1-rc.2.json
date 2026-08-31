@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "22e7f1bf5cdcb533c83b40c9db60307da8cf5e285aaf9169eddc79ee344964fa",
+  "plugin": {
+    "name": "charrywhite/dsh-sticky-notes",
+    "slug": "charrywhite-dsh-sticky-notes",
+    "install": "dsh plugin --profile web add github:charrywhite/dsh-sticky-notes",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-sticky-notes"
+    ],
+    "dependencies": [
+      "dsh-sticky-notes"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "24f47a1dbf92b905e6290a526c49a926c6f7da6483d1d5f4889b31b43def4963",
+  "testedAt": "2026-08-31T06:08:31.361Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

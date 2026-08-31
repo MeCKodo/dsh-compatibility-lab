@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "432cb109415e8b53a888e333543c12a11a2735c6f315e5f0a5e875e569a3be19",
+  "plugin": {
+    "name": "boogoo619/dsh-focus-overlay",
+    "slug": "boogoo619-dsh-focus-overlay",
+    "install": "dsh plugin --profile web add github:boogoo619/dsh-focus-overlay",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "1a2bb607d07be179684bfb0f075adc52fb76643237e7b108801025fe7e9d7e18",
+  "testedAt": "2026-08-31T06:03:03.662Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

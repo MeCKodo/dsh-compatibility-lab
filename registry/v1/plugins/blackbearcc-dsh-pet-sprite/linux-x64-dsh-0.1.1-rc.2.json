@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "e441c30975b1e92ed5406bb3b0a6a17668c3093046a5465aa9306c2a56329a0d",
+  "plugin": {
+    "name": "BlackBearCC/dsh-pet-sprite",
+    "slug": "blackbearcc-dsh-pet-sprite",
+    "install": "dsh plugin --profile web add github:BlackBearCC/dsh-pet-sprite",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "bc0696403c6f557732536c532b375c49d51ab49946c343dadbff26224701957d",
+  "testedAt": "2026-08-31T06:01:58.142Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

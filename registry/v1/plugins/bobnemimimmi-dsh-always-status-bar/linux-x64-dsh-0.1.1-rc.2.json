@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d8390b408127556925ff98258d904972d2e3484ef196cce28456826dc541913b",
+  "plugin": {
+    "name": "Bobnemimimmi/dsh-always-status-bar",
+    "slug": "bobnemimimmi-dsh-always-status-bar",
+    "install": "dsh plugin --profile web add github:Bobnemimimmi/dsh-always-status-bar",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8e5ed4393b844e8bb73d61177f222fa07fa26d5ba8c3c3474f58b49e0aad080d",
+  "testedAt": "2026-08-31T06:02:56.682Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

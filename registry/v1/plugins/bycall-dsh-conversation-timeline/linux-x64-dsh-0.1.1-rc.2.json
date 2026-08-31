@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "89dae3896919a0aa25c1581843405a12339b716c9b6ea1dce828c17a6e19765c",
+  "plugin": {
+    "name": "bycall/dsh-conversation-timeline",
+    "slug": "bycall-dsh-conversation-timeline",
+    "install": "dsh plugin --profile web add github:bycall/dsh-conversation-timeline#249a8574ba7aae20a787e8792228e50d550c93b5",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-conversation-timeline"
+    ],
+    "dependencies": [
+      "dsh-conversation-timeline"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "92102326c8ce54d89951754d547e4461f6b9bc63e23377b1755bcc7769b2137d",
+  "testedAt": "2026-08-31T06:04:12.519Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

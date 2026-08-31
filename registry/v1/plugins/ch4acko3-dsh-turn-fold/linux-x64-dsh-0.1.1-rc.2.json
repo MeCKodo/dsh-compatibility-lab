@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "b6fd59d401ad66f2c9a1734f0ffc1a254c50b64f1789ec09869f52f74a6a93c0",
+  "plugin": {
+    "name": "CH4ACKO3/dsh-turn-fold",
+    "slug": "ch4acko3-dsh-turn-fold",
+    "install": "dsh plugin --profile web add github:CH4ACKO3/dsh-turn-fold",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@ch4acko3/dsh-turn-fold"
+    ],
+    "dependencies": [
+      "@ch4acko3/dsh-turn-fold"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8e28fbe4953cf4b087da93aad0db7afbbe0821ac3c6855b32dea2599de792814",
+  "testedAt": "2026-08-31T06:06:42.807Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

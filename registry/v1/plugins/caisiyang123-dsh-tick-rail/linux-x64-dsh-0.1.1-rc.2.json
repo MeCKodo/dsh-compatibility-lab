@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "5b3e3599008683b0dd1278382cc786bce94a010bacd3e2224e2673f31b87362c",
+  "plugin": {
+    "name": "caisiyang123/dsh-tick-rail",
+    "slug": "caisiyang123-dsh-tick-rail",
+    "install": "dsh plugin --profile web add github:caisiyang123/dsh-tick-rail#2d103df93a7c4c11e43807cee525321b39730033",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-tick-rail"
+    ],
+    "dependencies": [
+      "dsh-tick-rail"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "1552dcccbfc23378f9e3a9b0c10209ed7eeccb220cc47c8af47080bdc127a3f4",
+  "testedAt": "2026-08-31T06:05:32.545Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}

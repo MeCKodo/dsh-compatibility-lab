@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "706df0c545de85053b80c34c9839e40f9f989cebf523a25f3a1cdee428151fcb",
+  "plugin": {
+    "name": "ChenYiming-aaa/dsh-ui-ux-pro-max",
+    "slug": "chenyiming-aaa-dsh-ui-ux-pro-max",
+    "install": "dsh plugin --profile desktop add github:ChenYiming-aaa/dsh-ui-ux-pro-max#3972901e4116290a6f681a8fd317e19738445e9c",
+    "profile": "desktop"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "dsh-ui-ux-pro-max"
+    ],
+    "dependencies": [
+      "dsh-ui-ux-pro-max"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "6b7930a13b4dfe394539b3dfe34455e7e084f1b47e0a727eec3499e428082e2e",
+  "testedAt": "2026-08-31T06:10:13.708Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+    "version": "1.0.0"
+  }
+}
