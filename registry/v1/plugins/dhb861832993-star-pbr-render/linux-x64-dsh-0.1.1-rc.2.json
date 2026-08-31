@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0ff8783380cf0811f67867e1683bd14bde97142b18448e7f1d2c9ef480dcd741",
+  "plugin": {
+    "name": "dhb861832993-star/pbr-render",
+    "slug": "dhb861832993-star-pbr-render",
+    "install": "dsh plugin --profile web add github:dhb861832993-star/pbr-render",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "pbr-render"
+    ],
+    "dependencies": [
+      "pbr-render"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "84edb1c3fdd9d160f33fa1a0a62e04e68ca301757f4fb65cb2a87e18ea39e4c2",
+  "testedAt": "2026-08-31T23:05:48.180Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}

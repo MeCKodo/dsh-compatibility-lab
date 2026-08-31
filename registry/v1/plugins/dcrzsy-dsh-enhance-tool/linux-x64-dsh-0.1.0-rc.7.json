@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "4a0f46ad624fe51c098fade3fdb787cf7fbda48322a545afb82085062efea641",
+  "plugin": {
+    "name": "dcrzsy/dsh-enhance-tool",
+    "slug": "dcrzsy-dsh-enhance-tool",
+    "install": "dsh plugin --profile web add github:dcrzsy/dsh-enhance-tool",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-enhance-tool"
+    ],
+    "dependencies": [
+      "dsh-enhance-tool"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "fd199050516efac443c7103fb42989e0962d03d4fed1d735dd72688b6a892bb0",
+  "testedAt": "2026-08-31T23:01:03.285Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}

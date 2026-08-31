@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "79c724e27fe03c20e7c4e7be589ce91248b9b58413d954a3088744c616c200c1",
+  "plugin": {
+    "name": "dingyi222666/dsh-focus-chat",
+    "slug": "dingyi222666-dsh-focus-chat",
+    "install": "dsh plugin --profile web add @dingyi222666/dsh-focus-chat",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@dingyi222666/dsh-focus-chat"
+    ],
+    "dependencies": [
+      "@dingyi222666/dsh-focus-chat"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e082cb280bab6bbd82a7942fdaccd407ac21209cdeafc1d6e49b31f6d03e0cf1",
+  "testedAt": "2026-08-31T23:07:18.347Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}

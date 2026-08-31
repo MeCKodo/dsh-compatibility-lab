@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0eedc272c171ce9c10da47cb2ed303857ae91c9a8aa62608ab8d5d3eb17b6ae6",
+  "plugin": {
+    "name": "demacia1314/dsh-airdrop",
+    "slug": "demacia1314-dsh-airdrop",
+    "install": "dsh plugin --profile web add dsh-universal-attachments",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-universal-attachments"
+    ],
+    "dependencies": [
+      "dsh-universal-attachments"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c5836740ef22cd629f7553bb3824654a15d09af4bd396cbc4c4f716eccdda1de",
+  "testedAt": "2026-08-31T23:03:37.357Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}

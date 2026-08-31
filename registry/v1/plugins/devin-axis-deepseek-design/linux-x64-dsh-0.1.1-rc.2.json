@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d7da4ce55060075070810c9857de3a48573da6c025193b53fe8b5b9178ccfc82",
+  "plugin": {
+    "name": "Devin-AXIS/deepseek-design",
+    "slug": "devin-axis-deepseek-design",
+    "install": "dsh plugin --profile web add deepseek-idesign",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "deepseek-idesign"
+    ],
+    "dependencies": [
+      "deepseek-idesign"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "74457545075e224aa74cec13257c4eb08d285893d7d1198e8a6785694c4a3f17",
+  "testedAt": "2026-08-31T23:04:58.001Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}

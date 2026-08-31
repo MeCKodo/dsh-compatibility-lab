@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "3ff7d95b6506d363b63fded088c7613f7592648882a64f8e89ea1f40b9c83106",
+  "plugin": {
+    "name": "dannyvan/dsh-file-drop",
+    "slug": "dannyvan-dsh-file-drop",
+    "install": "dsh plugin --profile web add github:dannyvan/dsh-file-drop#afa3ce99a6a167fb17ff65a1a4030d887d2869db",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-file-drop"
+    ],
+    "dependencies": [
+      "dsh-file-drop"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5c1fa74a841b5c4cc8ca3cada77b023db44815e7a6c8d749a02001547e4f8aa6",
+  "testedAt": "2026-08-31T23:01:21.606Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}

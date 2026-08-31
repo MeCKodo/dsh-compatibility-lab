@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "698b1c18bcab91782d0cf999059703e3a8f462b93e7230de70f3a48bd3378e52",
+  "plugin": {
+    "name": "delaydai/dsh-jumpbar",
+    "slug": "delaydai-dsh-jumpbar",
+    "install": "dsh plugin --profile web add dsh-jumpbar",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7c739ec1549acadcf2e924237d412b1a94ca3014799c58e854e2749a205b3281",
+  "testedAt": "2026-08-31T23:03:28.410Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "170d15d5e816ece958d21dade33f5f3d200d37cb",
+    "version": "1.0.0"
+  }
+}
