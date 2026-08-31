@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "49e00bc2c134f84f2d6e7603296eaa56c6abc74791022e168786a0516b4b3f16",
+  "plugin": {
+    "name": "ChuanTianML/dsh-chat-tidy",
+    "slug": "chuantianml-dsh-chat-tidy",
+    "install": "dsh plugin --profile web add github:ChuanTianML/dsh-chat-tidy",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-chat-tidy"
+    ],
+    "dependencies": [
+      "dsh-chat-tidy"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "437a04784fc475ffcb9c4dc91abb160e80d7bd2685cf0209024f273ff694d877",
+  "testedAt": "2026-08-31T14:23:53.106Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+    "version": "1.0.0"
+  }
+}

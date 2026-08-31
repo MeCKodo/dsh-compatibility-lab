@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "74e7a5bffdd4aa372481fa3e88a73e0afd913962cae9d92632b27ba9ffdebc34",
+  "plugin": {
+    "name": "DamonKoy/dsh-web-ui",
+    "slug": "damonkoy-dsh-web-ui",
+    "install": "dsh plugin --profile web add @linxin666/dsh-web-ui-all",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@linxin666/dsh-web-ui-all"
+    ],
+    "dependencies": [
+      "@linxin666/dsh-web-ui-all"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d73ccc2a88e2750c5c875208cb0dee8688f4ec978483e9a7da43d227ee62d0f4",
+  "testedAt": "2026-08-31T14:30:24.247Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+    "version": "1.0.0"
+  }
+}

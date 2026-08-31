@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "58daf3c8cf7d828f9eb0b0bdaa75b386f28f126b2ef3a39f6076b275428ee904",
+  "plugin": {
+    "name": "cookiesheep/whale-on-desk",
+    "slug": "cookiesheep-whale-on-desk",
+    "install": "dsh plugin --profile web add whale-on-desk",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "whale-on-desk"
+    ],
+    "dependencies": [
+      "whale-on-desk"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7845f65e06d042f2089b379979775515820ad937cb10ba18b7efb35bf922663f",
+  "testedAt": "2026-08-31T14:26:30.844Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+    "version": "1.0.0"
+  }
+}

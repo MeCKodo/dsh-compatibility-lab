@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "28a7a8ffa14618dade81d035e4c4c7d57796972cd28d1935d7295b083678922e",
+  "plugin": {
+    "name": "cuhaitiang0405-collab/dsh-indexbookmark",
+    "slug": "cuhaitiang0405-collab-dsh-indexbookmark",
+    "install": "dsh plugin --profile web add github:cuhaitiang0405-collab/dsh-indexbookmark",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-indexbookmark"
+    ],
+    "dependencies": [
+      "dsh-indexbookmark"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2999c4b734aa97ba7a623a2b4b16078947df10e62197d3e43acaef34db904efa",
+  "testedAt": "2026-08-31T14:27:46.731Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "b206f0c142689adfa601510ff70b7548a38536674637768fdb5e48ef31f377d9",
+  "plugin": {
+    "name": "cyrus123456/dsh-johari-cognition-quadrant-dialog-composer",
+    "slug": "cyrus123456-dsh-johari-cognition-quadrant-dialog-composer",
+    "install": "dsh plugin --profile web add github:cyrus123456/dsh-johari-cognition-quadrant-dialog-composer#8ec4979f5ba73a66ce0aca026da4ea544fac6baa",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-johari-cognition-quadrant-dialog-composer"
+    ],
+    "dependencies": [
+      "dsh-johari-cognition-quadrant-dialog-composer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "383a10c7bc98a50ed25fb45c4fb97d96c248493f6bd55cd24b83a4b7fd48bf42",
+  "testedAt": "2026-08-31T14:29:00.171Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+    "version": "1.0.0"
+  }
+}

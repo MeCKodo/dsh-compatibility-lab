@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0ee99f0c93dbe4b79ca7cc3f527288592bd9be34a2e405a25141bb8dd907c4c7",
+  "plugin": {
+    "name": "Choi-Peng/dsh-footer-order",
+    "slug": "choi-peng-dsh-footer-order",
+    "install": "dsh plugin --profile web add github:Choi-Peng/dsh-footer-order",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@choi-p/dsh-footer-order"
+    ],
+    "dependencies": [
+      "@choi-p/dsh-footer-order"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2d5f092d8e473254bd27b8e265cbeccd54111d4c02ef6910c7b9b9f8f631f6ee",
+  "testedAt": "2026-08-31T14:22:40.738Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+    "version": "1.0.0"
+  }
+}
