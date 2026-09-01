@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "09e6a8b141dadb7448d43171d638942c4264c750b7dfe9a9bee341b66719dfa4",
+  "plugin": {
+    "name": "EternalNight996/dsh-ui-three-body",
+    "slug": "eternalnight996-dsh-ui-three-body",
+    "install": "dsh plugin --profile web add github:EternalNight996/dsh-ui-three-body",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-ui-three-body"
+    ],
+    "dependencies": [
+      "dsh-ui-three-body"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "17fcb26f4a93f82e780efdc058e374f38963c6c1530fd9506f0106718304405b",
+  "testedAt": "2026-09-01T05:42:19.153Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

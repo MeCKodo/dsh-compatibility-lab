@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "7e465b5959879d18504b297c0fef9e054d48a973817433b8570f75cb2e964520",
+  "plugin": {
+    "name": "e2mcc/dsh-popout-sidebar",
+    "slug": "e2mcc-dsh-popout-sidebar",
+    "install": "dsh plugin --profile web add github:e2mcc/dsh-popout-sidebar",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-popout-sidebar"
+    ],
+    "dependencies": [
+      "dsh-popout-sidebar"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "bc216d134c331dbcd332b74840961e5843cf63c1f5182ee1b8534727437b97f8",
+  "testedAt": "2026-09-01T05:39:28.641Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

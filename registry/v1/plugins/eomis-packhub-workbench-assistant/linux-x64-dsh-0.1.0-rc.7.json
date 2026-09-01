@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "dc96d2a97893fa3706a04ced5f5d9e43e35566bb4ded8c22e54566801e3dc949",
+  "plugin": {
+    "name": "eomis/packhub-workbench-assistant",
+    "slug": "eomis-packhub-workbench-assistant",
+    "install": "dsh plugin --profile web add github:eomis/packhub-workbench-assistant#3aaf326df60ae733a23578d6edd5d490eca1a9ee",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@packhub/runtime"
+    ],
+    "dependencies": [
+      "@packhub/runtime"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e271cf454d18d08cad703acb0ce7fa393845aeea99c2e14c97cc347bdfe963d0",
+  "testedAt": "2026-09-01T05:39:39.863Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

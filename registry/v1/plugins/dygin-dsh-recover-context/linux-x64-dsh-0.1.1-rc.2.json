@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "408f63f0a9045e0845424a7a7cebf07e970c9cf081ed527e4b22fd2c429e221d",
+  "plugin": {
+    "name": "dygin/dsh-recover-context",
+    "slug": "dygin-dsh-recover-context",
+    "install": "dsh plugin --profile web add dsh-recover-context@latest",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-recover-context"
+    ],
+    "dependencies": [
+      "dsh-recover-context"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c98bef03d308d47f773119ee8acaf7612d9a5bb231356584d285f9cc809e1a42",
+  "testedAt": "2026-09-01T05:38:38.653Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

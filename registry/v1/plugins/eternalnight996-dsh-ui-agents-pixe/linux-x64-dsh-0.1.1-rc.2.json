@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "86f6d14f3b95e6fb436e143b4520123279c04f2d5c561c6c2f8f105f8b6851f4",
+  "plugin": {
+    "name": "EternalNight996/dsh-ui-agents-pixe",
+    "slug": "eternalnight996-dsh-ui-agents-pixe",
+    "install": "dsh plugin --profile web add dsh-ui-agents-pixe",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-ui-agents-pixe"
+    ],
+    "dependencies": [
+      "dsh-ui-agents-pixe"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "cf39425214c209a07f4b8c96cfa1a181dcb66b693c7e703b65434b27d195a0e3",
+  "testedAt": "2026-09-01T05:41:53.793Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

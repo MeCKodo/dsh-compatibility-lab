@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "759190f7c055238908827ad04e8898e170e96341f97dd580fea0e5bd01bb6e9b",
+  "plugin": {
+    "name": "drscrewdriver/dsh-input-traffic",
+    "slug": "drscrewdriver-dsh-input-traffic",
+    "install": "dsh plugin --profile web add github:drscrewdriver/dsh-input-traffic#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-input-traffic"
+    ],
+    "dependencies": [
+      "dsh-input-traffic"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "90f38e3b5d4b5abbc7e076a9463820e82135d704b837c4a69e936ed27ace07bb",
+  "testedAt": "2026-09-01T05:37:12.793Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

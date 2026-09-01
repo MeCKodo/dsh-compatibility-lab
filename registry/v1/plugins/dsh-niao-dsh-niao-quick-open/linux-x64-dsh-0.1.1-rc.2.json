@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c541b253c7897fe89cecfb501b0958d2a4b035bdc873115c63c25e3e72594568",
+  "plugin": {
+    "name": "dsh-niao/dsh-niao-quick-open",
+    "slug": "dsh-niao-dsh-niao-quick-open",
+    "install": "dsh plugin --profile web add dsh-niao-quick-open",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-niao-quick-open"
+    ],
+    "dependencies": [
+      "dsh-niao-quick-open"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "a737fe51eeedfaeacb029f0ce3d275820c4dfb37f680bc727f1017035d1ff2ef",
+  "testedAt": "2026-09-01T05:37:51.566Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}

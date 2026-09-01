@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "45a5247b1ae45ef5bf255d43b266cbbc1553f2d79abad4c5398ed97658b6a68b",
+  "plugin": {
+    "name": "EternalNight996/dsh-theme",
+    "slug": "eternalnight996-dsh-theme",
+    "install": "dsh plugin --profile web add github:EternalNight996/dsh-theme",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@eternalnight/dsh-theme"
+    ],
+    "dependencies": [
+      "@eternalnight/dsh-theme"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7e8040593d002914636f8a8c1e77d9ef1de2246cef0d6991034613fd7f304754",
+  "testedAt": "2026-09-01T05:40:46.088Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "version": "1.0.0"
+  }
+}
