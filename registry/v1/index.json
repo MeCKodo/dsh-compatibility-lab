@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-01T12:07:23.495Z",
+  "generated": "2026-09-01T17:01:03.444Z",
   "source": {
     "catalog": "https://deepseekplugin.org/registry/v1/catalog.json"
   },
@@ -8218,6 +8218,746 @@
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/foooold-dsh-message-nav/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "8019fbea2833b2673554b5e3b7f11807d8ab7020db19e0e9a8b012d5b0f8d022",
+      "plugin": {
+        "name": "Free-corner/dsh-chat-tools",
+        "slug": "free-corner-dsh-chat-tools"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "failed",
+      "checks": {
+        "install": {
+          "status": "failed"
+        },
+        "registration": {
+          "status": "failed"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "package did not register as a profile bundle",
+      "testedAt": "2026-09-01T16:53:15.870Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/free-corner-dsh-chat-tools/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "2f55a7584b55c4fad0615245d4faf2df8ee7ddd740238e5fbe17bc89a6118aa2",
+      "plugin": {
+        "name": "Free-corner/dsh-chat-tools",
+        "slug": "free-corner-dsh-chat-tools"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "failed",
+      "checks": {
+        "install": {
+          "status": "failed"
+        },
+        "registration": {
+          "status": "failed"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "package did not register as a profile bundle",
+      "testedAt": "2026-09-01T16:53:29.056Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/free-corner-dsh-chat-tools/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "56efb109b577c1c88cbf81d05169681e3050035a292fe954d3c67b0f1aa08f06",
+      "plugin": {
+        "name": "Frog755/dsh-prompt-vault",
+        "slug": "frog755-dsh-prompt-vault"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:53:33.632Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/frog755-dsh-prompt-vault/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "fdf9d8a99cf01e455efcd600dbfbba77207dd2d2b8b050c7c29eeca34c62cad8",
+      "plugin": {
+        "name": "Frog755/dsh-prompt-vault",
+        "slug": "frog755-dsh-prompt-vault"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:54:25.166Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/frog755-dsh-prompt-vault/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "9d1667d91f75da8989916c90da79ce07c9dce1ae568c74da198de450d5f11556",
+      "plugin": {
+        "name": "Frog755/dsh-wallpaper",
+        "slug": "frog755-dsh-wallpaper"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "failed",
+      "checks": {
+        "install": {
+          "status": "rejected"
+        },
+        "registration": {
+          "status": "not-run"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "install target was not an allowed npm or GitHub spec",
+      "testedAt": "2026-09-01T16:54:35.052Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/frog755-dsh-wallpaper/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "45f5e80b2cfbde99bc36bf05d4f2cbfac28459a3923881f26dcc2a3babcc2ba8",
+      "plugin": {
+        "name": "Frog755/dsh-wallpaper",
+        "slug": "frog755-dsh-wallpaper"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "failed",
+      "checks": {
+        "install": {
+          "status": "rejected"
+        },
+        "registration": {
+          "status": "not-run"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "install target was not an allowed npm or GitHub spec",
+      "testedAt": "2026-09-01T16:54:46.371Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/frog755-dsh-wallpaper/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "b2063be44a2d44899d7d4259581078d111985b7db5bbb45f9aa40948f6a81f8a",
+      "plugin": {
+        "name": "FuqiangCraft/dsh-desktop",
+        "slug": "fuqiangcraft-dsh-desktop"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:55:43.317Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/fuqiangcraft-dsh-desktop/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "9c8385a1cf5db5e641bbf311e4e40008ba236f91eecb584ab86f6ff699f2e0ab",
+      "plugin": {
+        "name": "FuqiangCraft/dsh-desktop",
+        "slug": "fuqiangcraft-dsh-desktop"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:55:45.304Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/fuqiangcraft-dsh-desktop/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "7eb99514d823779c9070ef5ce04fdc1c6f386d9de3fd040ccdf06132e8cc7127",
+      "plugin": {
+        "name": "future007s/dsh-peak-indicator",
+        "slug": "future007s-dsh-peak-indicator"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:56:01.483Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/future007s-dsh-peak-indicator/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "768af251fc7a3b9903147deb559de09cbe43e28dd2d760d85d296649d82d075f",
+      "plugin": {
+        "name": "future007s/dsh-peak-indicator",
+        "slug": "future007s-dsh-peak-indicator"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:57:15.705Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/future007s-dsh-peak-indicator/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "33b9bd8ab1993f09908487bf25e07e0e86d770d608bafbba0db8d2ecf115e6cf",
+      "plugin": {
+        "name": "garrisonz/dsh-sidebar-width",
+        "slug": "garrisonz-dsh-sidebar-width"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "failed",
+      "checks": {
+        "install": {
+          "status": "failed"
+        },
+        "registration": {
+          "status": "failed"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "package did not register as a profile bundle",
+      "testedAt": "2026-09-01T16:56:59.172Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/garrisonz-dsh-sidebar-width/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "cd7520a4cd74acc178a5e6d019e0e70ce208d879af539f250dfdfcdd2918757f",
+      "plugin": {
+        "name": "garrisonz/dsh-sidebar-width",
+        "slug": "garrisonz-dsh-sidebar-width"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "failed",
+      "checks": {
+        "install": {
+          "status": "failed"
+        },
+        "registration": {
+          "status": "failed"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "package did not register as a profile bundle",
+      "testedAt": "2026-09-01T16:57:04.502Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/garrisonz-dsh-sidebar-width/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "9fa9662baca84d0dc860fa8798f311b0481c170bb2115828295952092dd57264",
+      "plugin": {
+        "name": "GeekRicardo/dsh-balance",
+        "slug": "geekricardo-dsh-balance"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:58:11.504Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/geekricardo-dsh-balance/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "98675ca257608f5f0c1cde15cf645289e6ffcd6f7abbe404b26a25f07b8c7dd6",
+      "plugin": {
+        "name": "GeekRicardo/dsh-balance",
+        "slug": "geekricardo-dsh-balance"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:58:17.554Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/geekricardo-dsh-balance/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "37878525d7e7ec5186dcef701b05adc6674c4e9818f1a70448b66981ec0e277f",
+      "plugin": {
+        "name": "GeekRicardo/dsh-convmap",
+        "slug": "geekricardo-dsh-convmap"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:58:24.795Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/geekricardo-dsh-convmap/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "09df11a2e7efcbf5179cb0f0d2fdab0e4bc7fc91b5d0bdb7d0e5ba5f707a14cf",
+      "plugin": {
+        "name": "GeekRicardo/dsh-convmap",
+        "slug": "geekricardo-dsh-convmap"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T16:59:22.612Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/geekricardo-dsh-convmap/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "dbed99628a31a4ea50ed38a1a3c7795b301cbff60a1631bcf31cba8bd5dc21fb",
+      "plugin": {
+        "name": "geguanming/dsh-office-plugin",
+        "slug": "geguanming-dsh-office-plugin"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "needs-approval",
+      "checks": {
+        "install": {
+          "status": "failed"
+        },
+        "registration": {
+          "status": "blocked"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "source install needs a build script approval before registration",
+      "testedAt": "2026-09-01T16:59:36.014Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/geguanming-dsh-office-plugin/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "0a09b814c9b13becf5a5682ef6aa316dedf9b76f0dabbb242b6605e97bef8722",
+      "plugin": {
+        "name": "geguanming/dsh-office-plugin",
+        "slug": "geguanming-dsh-office-plugin"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "needs-approval",
+      "checks": {
+        "install": {
+          "status": "failed"
+        },
+        "registration": {
+          "status": "blocked"
+        },
+        "boot": {
+          "status": "not-run"
+        }
+      },
+      "detail": "source install needs a build script approval before registration",
+      "testedAt": "2026-09-01T16:59:34.600Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/geguanming-dsh-office-plugin/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "d1a77bb5e2282652a90f46f11a1d467c13e4c7bb47db9c456cd23188d7d0ad35",
+      "plugin": {
+        "name": "genius-alray/dsh-model-picker",
+        "slug": "genius-alray-dsh-model-picker"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T17:00:35.978Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/genius-alray-dsh-model-picker/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "f90ac3e5af9c759b32edce783c728b0db7b14b0c5591ba907f1a7a6a0e19ef07",
+      "plugin": {
+        "name": "genius-alray/dsh-model-picker",
+        "slug": "genius-alray-dsh-model-picker"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-01T17:00:49.455Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/genius-alray-dsh-model-picker/linux-x64-dsh-0.1.1-rc.2.json"
     },
     {
       "fingerprint": "dd4f1f5690e3c066dd86542cec9a08fe65a6bca408ad70b380238f218139010e",

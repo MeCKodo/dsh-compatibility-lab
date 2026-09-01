@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0a09b814c9b13becf5a5682ef6aa316dedf9b76f0dabbb242b6605e97bef8722",
+  "plugin": {
+    "name": "geguanming/dsh-office-plugin",
+    "slug": "geguanming-dsh-office-plugin",
+    "install": "dsh plugin --profile web add github:geguanming/dsh-office-plugin",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c0c391447c50805bf474eba9bbe7dbc06ea660c70da14f2e244731b173fc190c",
+  "testedAt": "2026-09-01T16:59:34.600Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+    "version": "1.0.0"
+  }
+}

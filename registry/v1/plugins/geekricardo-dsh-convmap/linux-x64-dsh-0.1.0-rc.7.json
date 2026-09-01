@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "37878525d7e7ec5186dcef701b05adc6674c4e9818f1a70448b66981ec0e277f",
+  "plugin": {
+    "name": "GeekRicardo/dsh-convmap",
+    "slug": "geekricardo-dsh-convmap",
+    "install": "dsh plugin --profile web add github:GeekRicardo/dsh-convmap#0ed3184e521b93c23aa898467ebc24eecb73e075",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-convmap"
+    ],
+    "dependencies": [
+      "dsh-convmap"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e3507418d75009caa520435b329b5fc0f3d31eaeafa5d73a148e7e6931992a6f",
+  "testedAt": "2026-09-01T16:58:24.795Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+    "version": "1.0.0"
+  }
+}

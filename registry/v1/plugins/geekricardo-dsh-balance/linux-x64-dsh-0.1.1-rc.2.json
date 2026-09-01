@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "98675ca257608f5f0c1cde15cf645289e6ffcd6f7abbe404b26a25f07b8c7dd6",
+  "plugin": {
+    "name": "GeekRicardo/dsh-balance",
+    "slug": "geekricardo-dsh-balance",
+    "install": "dsh plugin --profile web add github:GeekRicardo/dsh-balance#862cd404dbc283e17fb9c5317716311af2539671",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-balance"
+    ],
+    "dependencies": [
+      "dsh-balance"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4871665672afe0b9feb2a5bcaad8cd6d21446cb6bb9dc3c7fd78959c132022d8",
+  "testedAt": "2026-09-01T16:58:17.554Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "f69bd212fd8252ebe1acde29d003a23f88a3ca3a",
+    "version": "1.0.0"
+  }
+}
