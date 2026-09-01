@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c6aa4d70a4995b71285a48eea0169e648346812eaa4a44397c9c76cc4000f1ab",
+  "plugin": {
+    "name": "Fakek0f3sT/dsh-mcp-diff",
+    "slug": "fakek0f3st-dsh-mcp-diff",
+    "install": "dsh plugin --profile web add github:Fakek0f3sT/dsh-mcp-diff",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4039df040d00b2775724ce8e80eb393fb51b58bbe9a032751baf10d210c9e08e",
+  "testedAt": "2026-09-01T12:00:12.766Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9a8a752aa6bf5f91b0123ee2f427d7c66a336a0a7cc42614520bc0919c6ae407",
+  "plugin": {
+    "name": "FeatherHunter/dsh-prompt",
+    "slug": "featherhunter-dsh-prompt",
+    "install": "dsh plugin --profile web add dsh-prompt",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-prompt"
+    ],
+    "dependencies": [
+      "dsh-prompt"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "698666b8549884eea5eebbc88d79d4899df9c742a9aec04226b987bc942c0498",
+  "testedAt": "2026-09-01T12:02:41.920Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

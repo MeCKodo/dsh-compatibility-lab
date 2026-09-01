@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ecc4886020b47046a52c6217534126ad77daddbb314e3107892e24f3ef8a62a7",
+  "plugin": {
+    "name": "Fayelin12/dsh-office",
+    "slug": "fayelin12-dsh-office",
+    "install": "dsh plugin --profile web add dsh-office",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-office"
+    ],
+    "dependencies": [
+      "dsh-office"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8a97d841228c48e23e778299b768eb83380bfb501fba91a872de32eb6dca7b6b",
+  "testedAt": "2026-09-01T12:02:31.479Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

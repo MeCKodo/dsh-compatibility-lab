@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d229e850434aa7064f65fee7b2fd953b1bd066f5ede4598d01a602a50cd7ab15",
+  "plugin": {
+    "name": "fengMax1997/dsh-line-select",
+    "slug": "fengmax1997-dsh-line-select",
+    "install": "dsh plugin --profile web add github:fengMax1997/dsh-line-select#10e41640ce56a73b2471e60fd1d123f6ad51c442",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-line-select"
+    ],
+    "dependencies": [
+      "dsh-line-select"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e1335f221d04a3650a5be6232b2fe6a3220f12421ab0bb3e03fc49166ca8ef5d",
+  "testedAt": "2026-09-01T12:04:57.022Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

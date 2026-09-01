@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "6a18999a09f62af0ac4e54c5250ae0ce424c1c3167ccf57463b22e3df62fb272",
+  "plugin": {
+    "name": "foooold/dsh-message-nav",
+    "slug": "foooold-dsh-message-nav",
+    "install": "dsh plugin --profile web add github:foooold/dsh-message-nav",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-message-nav"
+    ],
+    "dependencies": [
+      "dsh-message-nav"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2fa0cdbee25902e7ba8f7789d768816da04aa9bc33dd15322aa9b89891ecb335",
+  "testedAt": "2026-09-01T12:06:04.893Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

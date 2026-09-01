@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "5cc40fb1b4fa112a09894b056f0e8e83c88fcf44535fce34bc13b50a0080eee7",
+  "plugin": {
+    "name": "fan56/dsh-tui-pi",
+    "slug": "fan56-dsh-tui-pi",
+    "install": "dsh plugin --profile tui add @aiwayds/dsh-tui-pi",
+    "profile": "tui"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@aiwayds/dsh-tui-pi"
+    ],
+    "dependencies": [
+      "@aiwayds/dsh-tui-pi"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3210596aae6a59d95a27acce4e02540c41851452b32dfef9ce0bf6b004ac803c",
+  "testedAt": "2026-09-01T12:01:33.616Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "31999f8581261d51e4a65a9e70426f18227bcd5cf448b8a402f6d121668a0c2d",
+  "plugin": {
+    "name": "fengb3/dsh-session-icons",
+    "slug": "fengb3-dsh-session-icons",
+    "install": "dsh plugin --profile web add github:fengb3/dsh-session-icons",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "0611c44ec65a992ca32b8e5d1c8463ff6f481021dbbd8cb3e0332b8dda5050aa",
+  "testedAt": "2026-09-01T12:04:46.287Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}

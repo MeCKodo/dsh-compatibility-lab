@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d502c1b93bd9cd7855a129f85722fd5b08a1c3d64c788e864f1cd25111becc8b",
+  "plugin": {
+    "name": "EugeneVl/dsh_session_folders",
+    "slug": "eugenevl-dsh-session-folders",
+    "install": "dsh plugin --profile web add github:EugeneVl/dsh_session_folders#v0.4.3",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-session-folders"
+    ],
+    "dependencies": [
+      "dsh-session-folders"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "45689cf0e8ee990e33d711423a0e5ef6e0d66362605726311bd74759c2e1c118",
+  "testedAt": "2026-09-01T11:59:23.735Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "version": "1.0.0"
+  }
+}
