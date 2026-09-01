@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ea2f3eb3d3ea119d520e9ddbc42a8984c2de73d32a6d51f1bb53450ba40ffd3e",
+  "plugin": {
+    "name": "guo-ziao/dsh-interrupt-button",
+    "slug": "guo-ziao-dsh-interrupt-button",
+    "install": "dsh plugin --profile web add github:guo-ziao/dsh-interrupt-button",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-interrupt-button"
+    ],
+    "dependencies": [
+      "dsh-interrupt-button"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d602ee5f4a6716c68178c7b8111223a3ca87b67c2a341eda42da45b94f2486e7",
+  "testedAt": "2026-09-01T21:22:30.395Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}

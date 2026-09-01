@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d42fa03c1435ebb3a36f701e5744d72a1dbc79e59200645b0a12de9e2944832d",
+  "plugin": {
+    "name": "guoliyuan97-png/dsh-game-hud",
+    "slug": "guoliyuan97-png-dsh-game-hud",
+    "install": "dsh plugin --profile web add github:guoliyuan97-png/dsh-game-hud#v1.2.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-game-hud"
+    ],
+    "dependencies": [
+      "dsh-game-hud"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "cb5e7cea15c2d5ef8cc1176141d5922b69ddd59914b074c3fe669e02e9d534af",
+  "testedAt": "2026-09-01T21:22:47.230Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "4075195ea1e18cbf2235dc01e1776aeee112aee9251b76f872a8d432f0226666",
+  "plugin": {
+    "name": "guchang/draw2code",
+    "slug": "guchang-draw2code",
+    "install": "dsh plugin --profile web add github:guchang/draw2code#v0.1.2",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-draw2code"
+    ],
+    "dependencies": [
+      "dsh-draw2code"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "ab65354a14e5dab02c76180f497179278ce37685cdbf0e5ee61ba1cc99d33803",
+  "testedAt": "2026-09-01T21:21:21.562Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}

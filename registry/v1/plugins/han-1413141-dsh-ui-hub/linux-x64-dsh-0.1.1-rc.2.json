@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "463b9e5b6905139249b2ba66741850c6a35e843494450e78d1412378a176f282",
+  "plugin": {
+    "name": "Han-1413141/dsh-ui-hub",
+    "slug": "han-1413141-dsh-ui-hub",
+    "install": "dsh plugin --profile web add github:Han-1413141/dsh-ui-hub",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-ui-hub"
+    ],
+    "dependencies": [
+      "dsh-ui-hub"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "336017c45fa2fc78929541cac799735b7386ab1d0706381abb10d2f93ad28fb9",
+  "testedAt": "2026-09-01T21:24:59.655Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}

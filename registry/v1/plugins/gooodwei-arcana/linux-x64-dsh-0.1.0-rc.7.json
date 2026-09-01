@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ff3e910f2370af936f6eccbbfe584b4571462c1d12e31b04a4b21261c720f798",
+  "plugin": {
+    "name": "GooodWei/arcana",
+    "slug": "gooodwei-arcana",
+    "install": "dsh plugin --profile web add github:GooodWei/arcana",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "arcana"
+    ],
+    "dependencies": [
+      "arcana"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "21faa6351628b6eae6b3a33d42dd78c60f4839e5df6d8b36237f1e03149c9da6",
+  "testedAt": "2026-09-01T21:20:15.207Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}

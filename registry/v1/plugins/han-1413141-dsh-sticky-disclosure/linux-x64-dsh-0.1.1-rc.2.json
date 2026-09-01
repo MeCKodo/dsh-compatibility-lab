@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "84da04962584a875773457f449dad68547f653d9484d1c8d83115f201c996339",
+  "plugin": {
+    "name": "Han-1413141/dsh-sticky-disclosure",
+    "slug": "han-1413141-dsh-sticky-disclosure",
+    "install": "dsh plugin --profile web add github:Han-1413141/dsh-sticky-disclosure",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-sticky-disclosure"
+    ],
+    "dependencies": [
+      "dsh-sticky-disclosure"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "10e869df146c44f05f990b5a31ce09407db932ed262c6d69b6f358863781aeba",
+  "testedAt": "2026-09-01T21:23:58.193Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}

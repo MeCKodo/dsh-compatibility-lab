@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "4b2162d5b7c60f372bf5a031d485d684abea445bee56bb14df02835e20d2140b",
+  "plugin": {
+    "name": "GooDAnDReaDY/dsh-russian-lang",
+    "slug": "goodandready-dsh-russian-lang",
+    "install": "dsh plugin --profile web add @goodandready/dsh-russian-lang",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@goodandready/dsh-russian-lang"
+    ],
+    "dependencies": [
+      "@goodandready/dsh-russian-lang"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "0936268f9d8b4d4fbb13c98c2678d833d7b8aed71e9838d599ce24e58725bcf9",
+  "testedAt": "2026-09-01T21:19:45.445Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "eb67c39de3745c466439314171846e7c8dbc7e12",
+    "version": "1.0.0"
+  }
+}
