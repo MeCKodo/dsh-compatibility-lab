@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "51145bde53ec65e2d4feae90c6a4058583cf06bd94b836bd573e36e38ca706b6",
+  "plugin": {
+    "name": "hyrinx/dsh-plugin-open-with",
+    "slug": "hyrinx-dsh-plugin-open-with",
+    "install": "dsh plugin --profile web add github:hyrinx/dsh-plugin-open-with#9f23dfa7fdf1f0a91a8888a5b2754410e4e15ec9",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-plugin-open-with"
+    ],
+    "dependencies": [
+      "dsh-plugin-open-with"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4dd5cb56174c0b2b39b7a5133854b0c793bcaecd56b829bfe8621ea1a2ff8cb2",
+  "testedAt": "2026-09-02T16:52:15.795Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

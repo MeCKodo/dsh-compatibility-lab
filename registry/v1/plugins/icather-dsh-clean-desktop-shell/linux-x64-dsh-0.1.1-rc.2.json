@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "2fabba966478d3a42ab4ae13df254c3970adc9ae7e51d4901f41ddef925c2c2a",
+  "plugin": {
+    "name": "Icather/dsh-clean-desktop-shell",
+    "slug": "icather-dsh-clean-desktop-shell",
+    "install": "dsh plugin --profile web add dsh-clean-desktop-shell",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-clean-desktop-shell"
+    ],
+    "dependencies": [
+      "dsh-clean-desktop-shell"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "1e3a95194021faae5b53f5b05e3ec032dae53deb703062194e54dd789fe2293e",
+  "testedAt": "2026-09-02T16:54:13.823Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

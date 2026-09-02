@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "f09560e5897df5d141a8dd4291c2cd29cd437750958b28a05c2dc38012fce31e",
+  "plugin": {
+    "name": "JanEickholt/dsh-inline-diff",
+    "slug": "janeickholt-dsh-inline-diff",
+    "install": "dsh plugin --profile web add github:JanEickholt/dsh-inline-diff",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-inline-diff"
+    ],
+    "dependencies": [
+      "dsh-inline-diff"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d1836022c67a00596aab7d04a91dd29d07c07cb227665f5424764c5124e67e5c",
+  "testedAt": "2026-09-02T16:57:45.312Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

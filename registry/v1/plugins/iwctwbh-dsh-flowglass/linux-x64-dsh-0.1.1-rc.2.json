@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9ee74e3dfd787a65d039379d5b03734397ee83d0462a2c08931266b946861169",
+  "plugin": {
+    "name": "Iwctwbh/dsh-flowglass",
+    "slug": "iwctwbh-dsh-flowglass",
+    "install": "dsh plugin --profile web add dsh-flowglass",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-flowglass"
+    ],
+    "dependencies": [
+      "dsh-flowglass"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "fe0391d756569ed45214539d80e008a3ca5f13647c7e2ba6e5fa87dfac7cc55d",
+  "testedAt": "2026-09-02T16:56:19.287Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

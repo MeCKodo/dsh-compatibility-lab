@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "3fe065f2780af6203b416e1236c8c1d6fbbcfb2bec9d794db95df47c8b90a8dd",
+  "plugin": {
+    "name": "Isilsolme/dsh-splash-launcher",
+    "slug": "isilsolme-dsh-splash-launcher",
+    "install": "dsh plugin --profile web add dsh-splash-launcher",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-splash-launcher"
+    ],
+    "dependencies": [
+      "dsh-splash-launcher"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "dbcb75d58c700928b8a1f9c509d37b1a105fca873de8bce30e86a8d346069fa7",
+  "testedAt": "2026-09-02T16:55:27.241Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

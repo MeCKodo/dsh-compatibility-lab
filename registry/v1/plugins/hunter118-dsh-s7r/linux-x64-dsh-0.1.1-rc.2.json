@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "7da14aa9d83f1a2455c0c40f34a142ec0ae0d8bc192259eb36dea1f62ec79b04",
+  "plugin": {
+    "name": "hunter118/dsh-s7r",
+    "slug": "hunter118-dsh-s7r",
+    "install": "dsh plugin --profile web add github:hunter118/dsh-s7r#ce042a5ce65dc13a50ce314dda57f1caff8c864f",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-s7r"
+    ],
+    "dependencies": [
+      "dsh-s7r"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7c61d10586c50edee378893fe0590f04479a03fafbcd8cd71b6fad427dde36ab",
+  "testedAt": "2026-09-02T16:51:54.005Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

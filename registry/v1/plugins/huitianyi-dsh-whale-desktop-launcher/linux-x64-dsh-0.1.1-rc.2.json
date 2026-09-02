@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "210f4e832c13a2215bb05e6f9e33044dc66893257d69dfc2c13e04d335e8a276",
+  "plugin": {
+    "name": "HUITianYi/dsh-whale-desktop-launcher",
+    "slug": "huitianyi-dsh-whale-desktop-launcher",
+    "install": "dsh plugin --profile web add github:HUITianYi/dsh-whale-desktop-launcher#v0.1.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-whale-desktop-launcher"
+    ],
+    "dependencies": [
+      "dsh-whale-desktop-launcher"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "fce8c0b20c50f90fb61dc58e62af815ef95e909cbf11555a9ad13348027df6af",
+  "testedAt": "2026-09-02T16:50:49.759Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

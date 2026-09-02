@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c4bfeee094ba3aae14c3613bc23251a3511307852420308b22f70b56c0f9723e",
+  "plugin": {
+    "name": "hytime/dsh-client-ui-shortcuts",
+    "slug": "hytime-dsh-client-ui-shortcuts",
+    "install": "dsh plugin --profile web add github:hytime/dsh-client-ui-shortcuts#v0.1.14",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "45b18c22840b00bb9432cac95b0b50bbe45be208320588e5f7511c9952560d6f",
+  "testedAt": "2026-09-02T16:53:04.053Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}

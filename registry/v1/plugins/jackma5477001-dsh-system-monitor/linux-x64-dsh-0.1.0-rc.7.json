@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "00a62899c916a2fe2ccc7d8021fb648e114b6821ca585ea84ea1de645daf6aae",
+  "plugin": {
+    "name": "jackma5477001/dsh-system-monitor",
+    "slug": "jackma5477001-dsh-system-monitor",
+    "install": "dsh plugin --profile web add github:jackma5477001/dsh-system-monitor#2cd7c469aeb8720238e32892d875e703693eed93",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-system-monitor"
+    ],
+    "dependencies": [
+      "dsh-system-monitor"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2da90e87c4ced7434174089ed0a65629a41bcf690efcf5b2cf7654f502ad5b02",
+  "testedAt": "2026-09-02T16:56:36.269Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "b74f09bd8a9cca9ee8a68e341333110cc1363482",
+    "version": "1.0.0"
+  }
+}
