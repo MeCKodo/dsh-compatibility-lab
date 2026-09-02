@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "1869286f8c31fa6ec6429ba3909671eb61fe13e649d0338bba771e5ef71ffd73",
+  "plugin": {
+    "name": "hg1048596-pixel/dsh-recall-unread",
+    "slug": "hg1048596-pixel-dsh-recall-unread",
+    "install": "dsh plugin --profile web add github:hg1048596-pixel/dsh-recall-unread#e9a22bad1f246584ac153a250436732c754b7e72",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-recall-unread"
+    ],
+    "dependencies": [
+      "dsh-recall-unread"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5d7c90e5cce2bff35f9cf6f14f694a30ccca83cc008a2f3e2037b0a213513227",
+  "testedAt": "2026-09-02T05:03:27.815Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c049da26cdd9975e0e089eefa960d78770957d2c",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "753db44cd0207e9e89b5fe751e94eac1bc49553257d7aa2d224c35222d68d8b4",
+  "plugin": {
+    "name": "hufeide/dsh-sidebar-assistant",
+    "slug": "hufeide-dsh-sidebar-assistant",
+    "install": "dsh plugin --profile web add dsh-sidebar-assistant",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "938f11e87c83775728f10f214735146e841bf0c39865f9f36a2b7e8fc19d6ca7",
+  "testedAt": "2026-09-02T05:07:03.886Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c049da26cdd9975e0e089eefa960d78770957d2c",
+    "version": "1.0.0"
+  }
+}

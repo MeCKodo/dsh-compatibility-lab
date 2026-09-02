@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "19346ec35f096a2d15e9aa1588b6d4ef0f1156d479a2e60ff8b1484c99d9ee56",
+  "plugin": {
+    "name": "HaoyueQin/dsh-diff-stat",
+    "slug": "haoyueqin-dsh-diff-stat",
+    "install": "dsh plugin --profile web add github:HaoyueQin/dsh-diff-stat",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5e0ef8bb65a10977c0e0bb5b83cee5e172bd8446a66c862893719e256b4d1617",
+  "testedAt": "2026-09-02T04:59:51.473Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c049da26cdd9975e0e089eefa960d78770957d2c",
+    "version": "1.0.0"
+  }
+}

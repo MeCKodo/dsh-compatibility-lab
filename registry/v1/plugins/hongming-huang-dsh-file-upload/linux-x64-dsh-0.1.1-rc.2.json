@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "7766889b594949103f71d334488a28aa9f96fb586aadced22572c28663a0cc38",
+  "plugin": {
+    "name": "HongMing-Huang/dsh-file-upload",
+    "slug": "hongming-huang-dsh-file-upload",
+    "install": "dsh plugin --profile web add dsh-file-upload",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-file-upload"
+    ],
+    "dependencies": [
+      "dsh-file-upload"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "91422dc2c7c9920dd68aece0a724405d89f3921c3e27643642a671a4bebcfa8d",
+  "testedAt": "2026-09-02T05:03:45.243Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c049da26cdd9975e0e089eefa960d78770957d2c",
+    "version": "1.0.0"
+  }
+}

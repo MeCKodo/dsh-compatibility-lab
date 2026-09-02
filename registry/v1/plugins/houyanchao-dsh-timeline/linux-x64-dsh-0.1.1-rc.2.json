@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ffa10b241175c273ba2d6f3dfb63f60becacc089da9fed9bbc95f0882599fdb5",
+  "plugin": {
+    "name": "houyanchao/dsh-timeline",
+    "slug": "houyanchao-dsh-timeline",
+    "install": "dsh plugin --profile web add dsh-timeline",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-timeline"
+    ],
+    "dependencies": [
+      "dsh-timeline"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "991bdff5f755544b2ed56f90916f05edac8cb8659020070f7cfd03a76e13f2c1",
+  "testedAt": "2026-09-02T05:04:46.667Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c049da26cdd9975e0e089eefa960d78770957d2c",
+    "version": "1.0.0"
+  }
+}

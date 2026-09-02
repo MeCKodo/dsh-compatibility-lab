@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "7ecb4eae308d7445000a006d4ba102b974528a99c5ec8b975b3233cd9f5eb6fb",
+  "plugin": {
+    "name": "Hanmiao33/dsh-bubble-explain",
+    "slug": "hanmiao33-dsh-bubble-explain",
+    "install": "dsh plugin --profile web add github:Hanmiao33/dsh-bubble-explain",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@dsh-external/bubble-explain"
+    ],
+    "dependencies": [
+      "@dsh-external/bubble-explain"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "93ecd36040c60631b954ee031e1db76b3d6d34bcf5add21785d55b7d86cdcfe5",
+  "testedAt": "2026-09-02T05:00:09.182Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "c049da26cdd9975e0e089eefa960d78770957d2c",
+    "version": "1.0.0"
+  }
+}
