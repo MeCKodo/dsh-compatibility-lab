@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "63d2ac55af7e4afb1266fbc0059a9a64b034d77cc2d8f5ab2d99825c6930ec49",
+  "plugin": {
+    "name": "jiuyuechuwuhao/dsh-canvas-preview",
+    "slug": "jiuyuechuwuhao-dsh-canvas-preview",
+    "install": "dsh plugin --profile web add dsh-canvas-preview",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-canvas-preview"
+    ],
+    "dependencies": [
+      "dsh-canvas-preview"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "37b64e40e2757137eade17f542029293ce246de080dba8f968d7c29451953203",
+  "testedAt": "2026-09-02T21:17:23.488Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}

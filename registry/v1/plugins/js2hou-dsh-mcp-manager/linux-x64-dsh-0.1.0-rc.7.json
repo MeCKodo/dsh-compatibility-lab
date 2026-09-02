@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "6c0bd7a2b5fe15952c3d72855c70926ef4656592759b9b7a0a40243479d4ac49",
+  "plugin": {
+    "name": "Js2Hou/dsh-mcp-manager",
+    "slug": "js2hou-dsh-mcp-manager",
+    "install": "dsh plugin --profile web add github:Js2Hou/dsh-mcp-manager",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@js2hou/dsh-mcp-manager"
+    ],
+    "dependencies": [
+      "@js2hou/dsh-mcp-manager"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d2d8f7c6bae1ec39c8a233b0bff496bb269ea83ff6c52bb1d9edfb8e055179ae",
+  "testedAt": "2026-09-02T21:21:20.267Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}

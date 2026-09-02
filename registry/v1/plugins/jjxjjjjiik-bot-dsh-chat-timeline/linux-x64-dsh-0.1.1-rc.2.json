@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "104def731351854b2ca7d3785bec24a455275760ad1ff1f02cfadfd00177ef67",
+  "plugin": {
+    "name": "jjxjjjjiik-bot/dsh-chat-timeline",
+    "slug": "jjxjjjjiik-bot-dsh-chat-timeline",
+    "install": "dsh plugin --profile web add dsh-chat-timeline",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-chat-timeline"
+    ],
+    "dependencies": [
+      "dsh-chat-timeline"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "b813ecc94e5a54bdde3d55476d118eed01e6935923df33590cefa0b7744cefab",
+  "testedAt": "2026-09-02T21:18:49.263Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}

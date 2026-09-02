@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "702d4fe80031d882a4c6004a496fc6f7631f064cc47e2b0434bf6e1f4da25f0d",
+  "plugin": {
+    "name": "jasondu/dsh-ui-mobile",
+    "slug": "jasondu-dsh-ui-mobile",
+    "install": "dsh plugin --profile web add github:jasondu/dsh-ui-mobile#3ba0c08c8a1cb542861768f499f558d5a1df6b72",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "505116872c922cee1bb8f86183819dac96200a357fa67107ef09445ee2834c66",
+  "testedAt": "2026-09-02T21:15:00.141Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}

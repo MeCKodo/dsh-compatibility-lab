@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "5a54a46ab210dc3c8ec38a0187229d6f788fc8542e651132d3d7fd98a47a837d",
+  "plugin": {
+    "name": "jkamkk/dsh-liquid-glass-input",
+    "slug": "jkamkk-dsh-liquid-glass-input",
+    "install": "dsh plugin --profile web add github:jkamkk/dsh-liquid-glass-input",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-liquid-glass-input"
+    ],
+    "dependencies": [
+      "dsh-liquid-glass-input"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "1922c9fdd1e6d84736ea3631448fbae2b1687c1a03b17e547931a1616805157f",
+  "testedAt": "2026-09-02T21:19:53.378Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}

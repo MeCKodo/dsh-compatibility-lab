@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "af15fb15c1c5871e52fd34f5153d285480001a487b0dbea3acadfa74211b7b05",
+  "plugin": {
+    "name": "jiangnanquan/dsh-ux",
+    "slug": "jiangnanquan-dsh-ux",
+    "install": "dsh plugin --profile web add github:jiangnanquan/dsh-ux#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-enhance"
+    ],
+    "dependencies": [
+      "dsh-enhance"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c0a32597cc2967cee712b09c54eb0a6a08a782c2f7684e5c78402ec760816be9",
+  "testedAt": "2026-09-02T21:16:13.121Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}

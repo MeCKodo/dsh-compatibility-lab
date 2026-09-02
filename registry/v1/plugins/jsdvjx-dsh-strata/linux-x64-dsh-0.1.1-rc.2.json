@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a6f620d68e4f76d04654c4b7affc5081ad84df08acef6e795cd2bc7f79d943be",
+  "plugin": {
+    "name": "jsdvjx/dsh-strata",
+    "slug": "jsdvjx-dsh-strata",
+    "install": "dsh plugin --profile web add github:jsdvjx/dsh-strata#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-strata"
+    ],
+    "dependencies": [
+      "dsh-strata"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "723ee6cd15f71a5bdfd7cf99f0fd2f055a7fe33910cf1c6d472e7f4cbe754715",
+  "testedAt": "2026-09-02T21:22:57.036Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "version": "1.0.0"
+  }
+}
