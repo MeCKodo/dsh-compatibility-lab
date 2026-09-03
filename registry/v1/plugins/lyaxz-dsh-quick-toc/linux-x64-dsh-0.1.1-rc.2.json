@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0a683fcdeab0e40b9bc80e1116b856922b1b830ee1735440af41e844537a9b94",
+  "plugin": {
+    "name": "LyaxZ/dsh-quick-toc",
+    "slug": "lyaxz-dsh-quick-toc",
+    "install": "dsh plugin --profile web add github:LyaxZ/dsh-quick-toc",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-quick-toc"
+    ],
+    "dependencies": [
+      "dsh-quick-toc"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8ab3e7ac355803dea4db5473419cf4061fb2db269fdf3cb7b46f5e62db5c4a52",
+  "testedAt": "2026-09-03T21:26:56.295Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ad263078d1fae426be3a882330433a2a5ba3e53a",
+    "version": "1.0.0"
+  }
+}

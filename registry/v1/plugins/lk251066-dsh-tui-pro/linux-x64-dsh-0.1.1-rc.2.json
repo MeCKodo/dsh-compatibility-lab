@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "dcd929f2aeed74efc5b02ab2057050cfe7be7d774a810c980d3a01ad37404146",
+  "plugin": {
+    "name": "lk251066/dsh-tui-pro",
+    "slug": "lk251066-dsh-tui-pro",
+    "install": "dsh plugin --profile tui add @lk251066/dsh-tui",
+    "profile": "tui"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "boot-failed",
+  "detail": "registered plugin caused the profile help surface to fail during boot",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "failed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@lk251066/dsh-tui"
+    ],
+    "dependencies": [
+      "@lk251066/dsh-tui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3e8f1d48662b38de75ef4daedecd524efb2f68c73a534388da6cd725a4996d24",
+  "testedAt": "2026-09-03T21:19:22.520Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ad263078d1fae426be3a882330433a2a5ba3e53a",
+    "version": "1.0.0"
+  }
+}

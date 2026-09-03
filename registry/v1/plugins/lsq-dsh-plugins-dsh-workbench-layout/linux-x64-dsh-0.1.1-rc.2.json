@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "94938e8d83fa09b081cfb84357026cc121e9160f6b6e4dfae1eb9d27b8f8d4fb",
+  "plugin": {
+    "name": "lsq-dsh-plugins/dsh-workbench-layout",
+    "slug": "lsq-dsh-plugins-dsh-workbench-layout",
+    "install": "dsh plugin --profile web add @lsq64737/dsh-workbench-layout",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@lsq64737/dsh-workbench-layout"
+    ],
+    "dependencies": [
+      "@lsq64737/dsh-workbench-layout"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2c795c86861adf87226fd094e05a0c9787616264d989244624671e9188217d9d",
+  "testedAt": "2026-09-03T21:24:41.878Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ad263078d1fae426be3a882330433a2a5ba3e53a",
+    "version": "1.0.0"
+  }
+}

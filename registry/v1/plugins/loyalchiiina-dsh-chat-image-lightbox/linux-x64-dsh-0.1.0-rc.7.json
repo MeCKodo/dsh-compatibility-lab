@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "f421090d15de34d21342c3cdb8394c6c1149f5949d13b456db484d3a0799fc43",
+  "plugin": {
+    "name": "loyalchiiina/dsh-chat-image-lightbox",
+    "slug": "loyalchiiina-dsh-chat-image-lightbox",
+    "install": "dsh plugin --profile desktop add @loyalchiiina/dsh-chat-image-lightbox",
+    "profile": "desktop"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "boot-failed",
+  "detail": "registered plugin caused the profile help surface to fail during boot",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "failed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@loyalchiiina/dsh-chat-image-lightbox"
+    ],
+    "dependencies": [
+      "@loyalchiiina/dsh-chat-image-lightbox"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5cd688cf481bba8322c2ba4a0657ff8187151609a125044197368f44437d927b",
+  "testedAt": "2026-09-03T21:22:01.510Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ad263078d1fae426be3a882330433a2a5ba3e53a",
+    "version": "1.0.0"
+  }
+}

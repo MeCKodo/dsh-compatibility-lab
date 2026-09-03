@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ee7002199dff632c3e37d0b8fa61987776081a8a3bcc45a86a901f9c584c83af",
+  "plugin": {
+    "name": "liujia-io/dsh-image-picker",
+    "slug": "liujia-io-dsh-image-picker",
+    "install": "dsh plugin --profile web add github:liujia-io/dsh-image-picker",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-image-picker"
+    ],
+    "dependencies": [
+      "dsh-image-picker"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e6ef0b0e117a27bcbf08a427942b86c2165e006abc5b0316e70db2859a95bb50",
+  "testedAt": "2026-09-03T21:18:02.928Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "ad263078d1fae426be3a882330433a2a5ba3e53a",
+    "version": "1.0.0"
+  }
+}
