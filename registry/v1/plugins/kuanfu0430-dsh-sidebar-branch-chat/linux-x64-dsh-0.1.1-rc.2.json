@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d15462d1001989b8a5aea9e02d2a95be2c2737159301ce9fe9433b9205f74ed1",
+  "plugin": {
+    "name": "kuanfu0430/dsh-sidebar-branch-chat",
+    "slug": "kuanfu0430-dsh-sidebar-branch-chat",
+    "install": "dsh plugin --profile web add github:kuanfu0430/dsh-sidebar-branch-chat",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@kuanfu0430/dsh-sidebar-branch-chat"
+    ],
+    "dependencies": [
+      "@kuanfu0430/dsh-sidebar-branch-chat"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d7385399c1badacee33e49eb72bf0e63a6af3e3faefb000d2175736851c874b7",
+  "testedAt": "2026-09-03T11:40:40.955Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+    "version": "1.0.0"
+  }
+}

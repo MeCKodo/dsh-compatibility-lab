@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "3139cff130bfa572fffa2fab2c216451e3c4c55f6e459f07b3b8f9e4a0f1f51a",
+  "plugin": {
+    "name": "LCQ-1024/dsh-prompt-enhancer",
+    "slug": "lcq-1024-dsh-prompt-enhancer",
+    "install": "dsh plugin --profile web add github:LCQ-1024/dsh-prompt-enhancer",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-prompt-enhancer"
+    ],
+    "dependencies": [
+      "dsh-prompt-enhancer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "b9a3f69cd511ec8606d6c67d7f91463b0160deb20e49952dbc52909f16b430fb",
+  "testedAt": "2026-09-03T11:44:16.129Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "cbc298ccaed9ea59d961b5e8808566249abad620e82e0c407b1316063392c2d5",
+  "plugin": {
+    "name": "l541402398/dsh-file-uploads",
+    "slug": "l541402398-dsh-file-uploads",
+    "install": "dsh plugin --profile web add github:l541402398/dsh-file-uploads#v1.0.0",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-file-uploads"
+    ],
+    "dependencies": [
+      "dsh-file-uploads"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8a359ff103519f931d9f53289e27f7c686bbb027621bf62549343929526c3d7e",
+  "testedAt": "2026-09-03T11:41:50.623Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+    "version": "1.0.0"
+  }
+}

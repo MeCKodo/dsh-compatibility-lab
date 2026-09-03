@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c073d47aa81b1706c455f2a6663e5e1a82be7e0503a3938b7ecb58e1cc490fd2",
+  "plugin": {
+    "name": "Laplace-bit/dsh-smooth-stream",
+    "slug": "laplace-bit-dsh-smooth-stream",
+    "install": "dsh plugin --profile web add dsh-smooth-stream",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-smooth-stream"
+    ],
+    "dependencies": [
+      "dsh-smooth-stream"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "55fabb978e81cc8d93cb3bd1a9ce1059ba40d09aa8f9dcd8fa0e50903ba72aab",
+  "testedAt": "2026-09-03T11:42:55.349Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+    "version": "1.0.0"
+  }
+}

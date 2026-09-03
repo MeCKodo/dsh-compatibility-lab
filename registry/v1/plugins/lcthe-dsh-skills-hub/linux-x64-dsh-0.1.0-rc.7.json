@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "3223f7e68e0a8797ce4e908bfd8dd1a2ab03dd2f3c6102f99dc4149832fb7f51",
+  "plugin": {
+    "name": "lcthe/dsh-skills-hub",
+    "slug": "lcthe-dsh-skills-hub",
+    "install": "dsh plugin --profile web add github:lcthe/dsh-skills-hub#2ad30b02003d9d426be67d9572cecd661227d70a",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@lcthe/dsh-skills-hub"
+    ],
+    "dependencies": [
+      "@lcthe/dsh-skills-hub"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "f90dce4fb4d7bc159429e7ffaf010fa8d6fe643ef938f3562c659d322bf80731",
+  "testedAt": "2026-09-03T11:45:29.193Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+    "version": "1.0.0"
+  }
+}

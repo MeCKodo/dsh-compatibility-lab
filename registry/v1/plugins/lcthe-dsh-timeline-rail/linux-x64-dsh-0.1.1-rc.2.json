@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "6a8cd783a998a1c07c497291380a4f076cda9f9fc5fbb23c8e9f995bb645b12c",
+  "plugin": {
+    "name": "lcthe/dsh-timeline-rail",
+    "slug": "lcthe-dsh-timeline-rail",
+    "install": "dsh plugin --profile web add github:lcthe/dsh-timeline-rail#661d4a859f80d8c6f445d844ee0fb081c30cbc66",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@lcthe/dsh-timeline-rail"
+    ],
+    "dependencies": [
+      "@lcthe/dsh-timeline-rail"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "ff0edcc195a3cdd98b6caf7fd5523998004e4d4e2e0f0292c4272f29343c1bbe",
+  "testedAt": "2026-09-03T11:46:31.409Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+    "version": "1.0.0"
+  }
+}

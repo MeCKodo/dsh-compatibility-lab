@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-03T05:05:40.697Z",
+  "generated": "2026-09-03T11:48:21.296Z",
   "source": {
     "catalog": "https://deepseekplugin.org/registry/v1/catalog.json"
   },
@@ -12882,6 +12882,376 @@
       "path": "registry/v1/plugins/kouyichi-dsh-tui-app/linux-x64-dsh-0.1.1-rc.2.json"
     },
     {
+      "fingerprint": "1093abf3a762e97e09e39b881bdbb145be6d1e9c630b40b70c75e40dde8b15de",
+      "plugin": {
+        "name": "kuanfu0430/dsh-sidebar-branch-chat",
+        "slug": "kuanfu0430-dsh-sidebar-branch-chat"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:40:41.678Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/kuanfu0430-dsh-sidebar-branch-chat/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "d15462d1001989b8a5aea9e02d2a95be2c2737159301ce9fe9433b9205f74ed1",
+      "plugin": {
+        "name": "kuanfu0430/dsh-sidebar-branch-chat",
+        "slug": "kuanfu0430-dsh-sidebar-branch-chat"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:40:40.955Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/kuanfu0430-dsh-sidebar-branch-chat/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "7152c4e89a3ce2a7c0b9aa82790e97d6ee4bcc764914bb3c4f0adccf788ae659",
+      "plugin": {
+        "name": "l541402398/dsh-file-uploads",
+        "slug": "l541402398-dsh-file-uploads"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:40:50.001Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/l541402398-dsh-file-uploads/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "cbc298ccaed9ea59d961b5e8808566249abad620e82e0c407b1316063392c2d5",
+      "plugin": {
+        "name": "l541402398/dsh-file-uploads",
+        "slug": "l541402398-dsh-file-uploads"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:41:50.623Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/l541402398-dsh-file-uploads/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "ad8c6f5620f29e434e1543739111a3483f2ac89410527c2f3c76864a7b37abbd",
+      "plugin": {
+        "name": "lakabuji-arch/dsh-model-accordion",
+        "slug": "lakabuji-arch-dsh-model-accordion"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:41:43.780Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lakabuji-arch-dsh-model-accordion/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "f3ad0b3eefc84d14a60e2f8d39a87fc05b5554df69b09d3d0139f9bf06186efa",
+      "plugin": {
+        "name": "lakabuji-arch/dsh-model-accordion",
+        "slug": "lakabuji-arch-dsh-model-accordion"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:41:59.521Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lakabuji-arch-dsh-model-accordion/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "078eeea421011e74f82361c7d8e6cadcfbfe7e79a11a2e66d9a2d72485bd5af4",
+      "plugin": {
+        "name": "Laplace-bit/dsh-smooth-stream",
+        "slug": "laplace-bit-dsh-smooth-stream"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:42:54.388Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/laplace-bit-dsh-smooth-stream/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "c073d47aa81b1706c455f2a6663e5e1a82be7e0503a3938b7ecb58e1cc490fd2",
+      "plugin": {
+        "name": "Laplace-bit/dsh-smooth-stream",
+        "slug": "laplace-bit-dsh-smooth-stream"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:42:55.349Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/laplace-bit-dsh-smooth-stream/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "4f7136b809d6ce4e23bec7f5fe6eac314b5c76c6b9e66b33fed69edbf18ef98c",
+      "plugin": {
+        "name": "lavapapa/dsh-composer-layout",
+        "slug": "lavapapa-dsh-composer-layout"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:43:09.991Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lavapapa-dsh-composer-layout/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "2efbbe786cc22cfd88c01ee9555ca5c1f0f95217602da06f2e9164b2624de345",
+      "plugin": {
+        "name": "lavapapa/dsh-composer-layout",
+        "slug": "lavapapa-dsh-composer-layout"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:44:44.994Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lavapapa-dsh-composer-layout/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
       "fingerprint": "71a8721a45540c29bc2d9cd056e024701ca8ec5ca313cf195ab72d17b98e5835",
       "plugin": {
         "name": "LayneChai/superpowers-dsh",
@@ -12954,6 +13324,376 @@
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/laynechai-superpowers-dsh/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "3139cff130bfa572fffa2fab2c216451e3c4c55f6e459f07b3b8f9e4a0f1f51a",
+      "plugin": {
+        "name": "LCQ-1024/dsh-prompt-enhancer",
+        "slug": "lcq-1024-dsh-prompt-enhancer"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:44:16.129Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lcq-1024-dsh-prompt-enhancer/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "12e0b89d4fb9d23b016cb8ca7793d80d8ce2188b5718a9f23a08bb12044be960",
+      "plugin": {
+        "name": "LCQ-1024/dsh-prompt-enhancer",
+        "slug": "lcq-1024-dsh-prompt-enhancer"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:44:16.196Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lcq-1024-dsh-prompt-enhancer/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "3223f7e68e0a8797ce4e908bfd8dd1a2ab03dd2f3c6102f99dc4149832fb7f51",
+      "plugin": {
+        "name": "lcthe/dsh-skills-hub",
+        "slug": "lcthe-dsh-skills-hub"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:45:29.193Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lcthe-dsh-skills-hub/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "459a8a3102c0b99c9ca3f785e6345a55cd8bdc2a4c0336e04f3624388bfb1f2c",
+      "plugin": {
+        "name": "lcthe/dsh-skills-hub",
+        "slug": "lcthe-dsh-skills-hub"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:45:35.293Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lcthe-dsh-skills-hub/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "c9129aa91a127909210a3064915b9e152804df68281b56b10d48b3b8c1a8370e",
+      "plugin": {
+        "name": "lcthe/dsh-timeline-rail",
+        "slug": "lcthe-dsh-timeline-rail"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:45:58.937Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lcthe-dsh-timeline-rail/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "6a8cd783a998a1c07c497291380a4f076cda9f9fc5fbb23c8e9f995bb645b12c",
+      "plugin": {
+        "name": "lcthe/dsh-timeline-rail",
+        "slug": "lcthe-dsh-timeline-rail"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:46:31.409Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lcthe-dsh-timeline-rail/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "b1f442e8da5bf7cbe54486547c227a7a722cdcc9a6db1a76428d51ee292210b8",
+      "plugin": {
+        "name": "LeemanCheung/dsh-whale-animation",
+        "slug": "leemancheung-dsh-whale-animation"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:46:49.881Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/leemancheung-dsh-whale-animation/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "5d4195911670ad130a78cff291c7b896647717b19fbb0e404b69b38247bf45a8",
+      "plugin": {
+        "name": "LeemanCheung/dsh-whale-animation",
+        "slug": "leemancheung-dsh-whale-animation"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:47:11.567Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/leemancheung-dsh-whale-animation/linux-x64-dsh-0.1.1-rc.2.json"
+    },
+    {
+      "fingerprint": "56f202b571b068e3b3f423be29747d3a744448fbca0471a13b3058969b01f49c",
+      "plugin": {
+        "name": "lemonorangeapple/dsh-effort-switcher",
+        "slug": "lemonorangeapple-dsh-effort-switcher"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.0-rc.7",
+        "label": "DSH 0.1.0-rc.7 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.0-rc.7"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:47:40.178Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lemonorangeapple-dsh-effort-switcher/linux-x64-dsh-0.1.0-rc.7.json"
+    },
+    {
+      "fingerprint": "2d9bb0c46c8babfbd40ecc96d7388cdd665bb7ac63a83be264a32e9795bac35e",
+      "plugin": {
+        "name": "lemonorangeapple/dsh-effort-switcher",
+        "slug": "lemonorangeapple-dsh-effort-switcher"
+      },
+      "environment": {
+        "id": "linux-x64-dsh-0.1.1-rc.2",
+        "label": "DSH 0.1.1-rc.2 on Linux x64",
+        "surface": "profile",
+        "os": "linux",
+        "arch": "x64",
+        "nodeVersion": "22",
+        "pnpmVersion": "10.34.5",
+        "dshVersion": "0.1.1-rc.2"
+      },
+      "status": "passed",
+      "checks": {
+        "install": {
+          "status": "passed"
+        },
+        "registration": {
+          "status": "passed"
+        },
+        "boot": {
+          "status": "passed"
+        }
+      },
+      "detail": "plugin installed, registered, and booted the profile help surface",
+      "testedAt": "2026-09-03T11:48:04.304Z",
+      "runner": {
+        "repository": "MeCKodo/dsh-compatibility-lab",
+        "revision": "7514c9b3d9f22415d2e38c56834622b61affcdc0",
+        "version": "1.0.0"
+      },
+      "path": "registry/v1/plugins/lemonorangeapple-dsh-effort-switcher/linux-x64-dsh-0.1.1-rc.2.json"
     },
     {
       "fingerprint": "de83de946955b33bbbbdf80f889a8bb8dde01dbd2b57f42b3f1ee851c946c9d7",
