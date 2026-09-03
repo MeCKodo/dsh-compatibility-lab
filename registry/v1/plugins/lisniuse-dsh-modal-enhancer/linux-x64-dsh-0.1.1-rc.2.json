@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "122c8cf103eb676ca7e602b2dc26a88311f5508c0f2775f0d0183f8a76d8835c",
+  "plugin": {
+    "name": "lisniuse/dsh-modal-enhancer",
+    "slug": "lisniuse-dsh-modal-enhancer",
+    "install": "dsh plugin --profile web add github:lisniuse/dsh-modal-enhancer",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-modal-enhancer"
+    ],
+    "dependencies": [
+      "dsh-modal-enhancer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "9eb5878a4fd2da79e7bb19b7b74cfc6524d70879241ca8a9e0be628dc96384a3",
+  "testedAt": "2026-09-03T16:46:57.433Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "05620c947c194339020d8717556602e548182e0e555e52718db699f5566e335e",
+  "plugin": {
+    "name": "littleboylittlegirl/dsh-community-hot",
+    "slug": "littleboylittlegirl-dsh-community-hot",
+    "install": "dsh plugin --profile web add dsh-community-hot",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-community-hot"
+    ],
+    "dependencies": [
+      "dsh-community-hot"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "daeaa8908564f9839a0628c3d9ae133808e99f8ecc5e195100fef9c111d32edc",
+  "testedAt": "2026-09-03T16:47:47.691Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}

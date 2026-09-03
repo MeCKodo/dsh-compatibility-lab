@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9e301ee15373bbc8e8697f0ca64d2ca19b61770dcb0141c152d021b84ebd8ce3",
+  "plugin": {
+    "name": "liqiming-whu/dsh-status-card",
+    "slug": "liqiming-whu-dsh-status-card",
+    "install": "dsh plugin --profile web add github:liqiming-whu/dsh-status-card#30f11393750647286b4f8f1bb646e8f0b80d040f",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "19d703e4526cc90a8d459ce888ffd2700dfca512428ff79e0603af03f000809d",
+  "testedAt": "2026-09-03T16:46:03.257Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}

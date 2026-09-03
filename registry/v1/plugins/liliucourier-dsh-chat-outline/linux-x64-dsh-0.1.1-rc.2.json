@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "725049bd7e4ce873204ca3c6317367f839423a9f780753991c5a05c27ba2ac5b",
+  "plugin": {
+    "name": "liliuCourier/dsh-chat-outline",
+    "slug": "liliucourier-dsh-chat-outline",
+    "install": "dsh plugin --profile web add github:liliuCourier/dsh-chat-outline",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-chat-outline"
+    ],
+    "dependencies": [
+      "dsh-chat-outline"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "67091ce2287d7f35ca02fc3c02dd2bd6662448c0eb6cb230cede9220533a24b2",
+  "testedAt": "2026-09-03T16:43:37.977Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}

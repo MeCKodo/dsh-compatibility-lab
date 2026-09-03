@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a910dcfb08ca128790f34adf0eb9af3a5ef18bfd20c80ad80501ea266fa2ddfe",
+  "plugin": {
+    "name": "lihang-lh/dsh-task-panel",
+    "slug": "lihang-lh-dsh-task-panel",
+    "install": "dsh plugin --profile web add github:lihang-lh/dsh-task-panel#63cc116952b54cf4e1943429f99e96fedc768a2f",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-task-panel"
+    ],
+    "dependencies": [
+      "dsh-task-panel"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e1ea82d88b721698d8b80476cad94dcdd7a45c7e5a46aa980cf25f634bfe1ff9",
+  "testedAt": "2026-09-03T16:41:23.159Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}

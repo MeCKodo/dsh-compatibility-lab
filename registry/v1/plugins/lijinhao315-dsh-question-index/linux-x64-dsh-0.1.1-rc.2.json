@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0837fa76b2fc201741cb3abc7a2ecdff946b8e24b8b454da2d117d0e34c1f91b",
+  "plugin": {
+    "name": "lijinhao315/dsh-question-index",
+    "slug": "lijinhao315-dsh-question-index",
+    "install": "dsh plugin --profile web add github:lijinhao315/dsh-question-index",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@lijinhao315/dsh-question-index"
+    ],
+    "dependencies": [
+      "@lijinhao315/dsh-question-index"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "cb265f49ec4b636dc0710d6145c84e58c38985cd5a0334bfc632f7e81e07f397",
+  "testedAt": "2026-09-03T16:42:28.274Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}

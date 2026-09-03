@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "37b998d99a42e5a8144c3b4ffbc969eac9dec7765732641bfc4c0c65914b1c4f",
+  "plugin": {
+    "name": "linhx1999/dsh-writing-pad",
+    "slug": "linhx1999-dsh-writing-pad",
+    "install": "dsh plugin --profile web add dsh-writing-pad",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-writing-pad"
+    ],
+    "dependencies": [
+      "dsh-writing-pad"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5a7a15eddc871f1f8f1454df7c24320544bfbef562442774b41727fe7e405059",
+  "testedAt": "2026-09-03T16:45:10.770Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "9592d2766534d66e9df56fb8045b4b8807e7d2f7",
+    "version": "1.0.0"
+  }
+}
