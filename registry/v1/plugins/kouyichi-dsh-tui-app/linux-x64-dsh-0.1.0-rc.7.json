@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "df8aca945855385eef2fa4c9a6e59143b5c8f2a38d050c23cee87d50c81c2cc3",
+  "plugin": {
+    "name": "kouyichi/dsh-tui-app",
+    "slug": "kouyichi-dsh-tui-app",
+    "install": "dsh plugin --profile web add github:kouyichi/dsh-tui-app#6ea58773be9528c9b432f98b00b497f120a56916",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-tui-app"
+    ],
+    "dependencies": [
+      "dsh-tui-app"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4652cc6ff00db4bddb8bc5d1a0fdf778afeead2a0878de6004164aa45b5ee95e",
+  "testedAt": "2026-09-03T05:05:06.626Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "16e50ac02f4626a9809a5afac07d150aac77b4ac",
+    "version": "1.0.0"
+  }
+}

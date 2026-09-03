@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "30654195107426e9419ddb9a65381065bd831d4c8a064799675e5001f0965405",
+  "plugin": {
+    "name": "KarlOfLaw/dsh-goal-mode-enhance",
+    "slug": "karloflaw-dsh-goal-mode-enhance",
+    "install": "dsh plugin --profile web add github:KarlOfLaw/dsh-goal-mode-enhance#f351daf586ebfc9606e4e5bfb1b141e318e59dab",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-goal-mode"
+    ],
+    "dependencies": [
+      "dsh-goal-mode"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "2609f383afada8fe9518ed9ced3ea7442264fb9fe6aa4681c004e4dcfe987651",
+  "testedAt": "2026-09-03T05:00:18.631Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "16e50ac02f4626a9809a5afac07d150aac77b4ac",
+    "version": "1.0.0"
+  }
+}

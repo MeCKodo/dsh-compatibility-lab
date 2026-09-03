@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "63e1f2470e9243ae4baabcdcf6c93d441b5dfc3c5dda6227b9f43216fbf94943",
+  "plugin": {
+    "name": "kkbsgg/dsh-balance",
+    "slug": "kkbsgg-dsh-balance",
+    "install": "dsh plugin --profile web add github:kkbsgg/dsh-balance#e65ea1b0f2900f992dd3fe58eb46f0c9dd280e9d",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@kkbsgg/dsh-balance"
+    ],
+    "dependencies": [
+      "@kkbsgg/dsh-balance"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c370bc5ae0aacb37a2f8e08126b4d8f34cd8fb2935e43cc3392bfd54ad6d080b",
+  "testedAt": "2026-09-03T05:03:49.570Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "16e50ac02f4626a9809a5afac07d150aac77b4ac",
+    "version": "1.0.0"
+  }
+}

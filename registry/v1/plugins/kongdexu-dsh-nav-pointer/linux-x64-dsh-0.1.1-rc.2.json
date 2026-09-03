@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c0599ae3bb7d33050bfec7dd6c6b8819edf5cac3e39b2d475035d42a59716c4e",
+  "plugin": {
+    "name": "kongdexu/dsh-nav-pointer",
+    "slug": "kongdexu-dsh-nav-pointer",
+    "install": "dsh plugin --profile web add dsh-nav-pointer",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-nav-pointer"
+    ],
+    "dependencies": [
+      "dsh-nav-pointer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "fe22216e4c45c1e1113216d5376e832db231e7c66712a391d19614886e1295f3",
+  "testedAt": "2026-09-03T05:04:15.592Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "16e50ac02f4626a9809a5afac07d150aac77b4ac",
+    "version": "1.0.0"
+  }
+}

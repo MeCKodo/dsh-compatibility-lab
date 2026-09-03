@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "baa0c62c2339975ec37f18529b1f01f9b1e1b627d293b2b034488e402cb8201f",
+  "plugin": {
+    "name": "k-ying/dsh-vsceditor",
+    "slug": "k-ying-dsh-vsceditor",
+    "install": "dsh plugin --profile web add github:k-ying/dsh-vsceditor",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-vsceditor"
+    ],
+    "dependencies": [
+      "dsh-vsceditor"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "fbd06cbc6bc090e3d1c3bb7a63096f4009182ecf2e340df693c8c15ea79b5ffd",
+  "testedAt": "2026-09-03T04:57:40.024Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "16e50ac02f4626a9809a5afac07d150aac77b4ac",
+    "version": "1.0.0"
+  }
+}
