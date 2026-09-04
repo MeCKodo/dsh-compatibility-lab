@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "07c5ed92a044d4933e3462976e9629442bcade406aafecc30e074fada32da843",
+  "plugin": {
+    "name": "Max-Null/dsh-chat-rail",
+    "slug": "max-null-dsh-chat-rail",
+    "install": "dsh plugin --profile web add github:Max-Null/dsh-chat-rail#e3c2df63fd6cb892fd48fd95e73a14a4fd14bbc2",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@max-null/dsh-chat-rail"
+    ],
+    "dependencies": [
+      "@max-null/dsh-chat-rail"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "ad9945e8a37fffa8628711c2699bb57a8244693dece65e7926d0de01d73ffff9",
+  "testedAt": "2026-09-04T05:08:27.915Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "71d6032388f5f7a478f6fbd56921d27ff97ce70b",
+    "version": "1.0.0"
+  }
+}

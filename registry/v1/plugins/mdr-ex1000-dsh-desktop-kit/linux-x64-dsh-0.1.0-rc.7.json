@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "11a6c64eafd44c1f57698ed381ad275427ae66b513d428f6862de6f7aa036ed6",
+  "plugin": {
+    "name": "MDR-EX1000/dsh-desktop-kit",
+    "slug": "mdr-ex1000-dsh-desktop-kit",
+    "install": "dsh plugin --profile web add dsh-desktop-kit",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3d4f26fc09404631a0363480306d5f90a72ae79458d41479c2151f73318c1d84",
+  "testedAt": "2026-09-04T05:09:44.274Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "71d6032388f5f7a478f6fbd56921d27ff97ce70b",
+    "version": "1.0.0"
+  }
+}

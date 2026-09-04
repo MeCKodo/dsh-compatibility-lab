@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9e799722448e8dc4dfbdd07a5a2527799998d1564b8a663c2e6e26042e647cb7",
+  "plugin": {
+    "name": "magicOF2/dsh-turn-marks",
+    "slug": "magicof2-dsh-turn-marks",
+    "install": "dsh plugin --profile web add github:magicOF2/dsh-turn-marks#80c7ed10fd495a6918f28544e4203252a05e1a36",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-turn-marks"
+    ],
+    "dependencies": [
+      "dsh-turn-marks"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "abfb3d1e6a6d0abb7354985aa2e6016ca2f94f4df179e1da28d82b32c105e38c",
+  "testedAt": "2026-09-04T05:07:22.663Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "71d6032388f5f7a478f6fbd56921d27ff97ce70b",
+    "version": "1.0.0"
+  }
+}

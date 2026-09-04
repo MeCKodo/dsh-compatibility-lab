@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ce3a196964675e853f2ed9271482701e7f6e759d029f0e2a71745e6346cb0300",
+  "plugin": {
+    "name": "Max-Null/dsh-node-appearance",
+    "slug": "max-null-dsh-node-appearance",
+    "install": "dsh plugin --profile web add github:Max-Null/dsh-node-appearance#0e6e803e6f27886aded5a6bda00f6fe65500e0da",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@max-null/dsh-node-appearance"
+    ],
+    "dependencies": [
+      "@max-null/dsh-node-appearance"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5191385a503a37f4401bdd1b621d6d98417bf5de83b36f7a48775999bf7e924d",
+  "testedAt": "2026-09-04T05:08:32.234Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "71d6032388f5f7a478f6fbd56921d27ff97ce70b",
+    "version": "1.0.0"
+  }
+}

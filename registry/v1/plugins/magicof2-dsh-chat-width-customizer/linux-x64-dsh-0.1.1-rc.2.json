@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "6ba1a6d936894b57efee30845b69957cb0d24da2d4e4abc2eb58ea2eaaa2d987",
+  "plugin": {
+    "name": "magicOF2/dsh-chat-width-customizer",
+    "slug": "magicof2-dsh-chat-width-customizer",
+    "install": "dsh plugin --profile web add dsh-chat-width-customizer",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "cc38f004d5e98c2d71dc5414e9991b9b7115d1d5ef22bcb772165adc323dd915",
+  "testedAt": "2026-09-04T05:05:55.482Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "71d6032388f5f7a478f6fbd56921d27ff97ce70b",
+    "version": "1.0.0"
+  }
+}
