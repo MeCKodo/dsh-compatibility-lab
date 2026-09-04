@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "ab0b0901dcee195544939519106233dc177e87c36a30295e7bb5c9bbb412531c",
+  "plugin": {
+    "name": "Nagi-ovo/dsh-visualize",
+    "slug": "nagi-ovo-dsh-visualize",
+    "install": "dsh plugin --profile web add github:Nagi-ovo/dsh-visualize",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@dsh-external/dsh-visualize"
+    ],
+    "dependencies": [
+      "@dsh-external/dsh-visualize"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "15c09d10b2facadcf3606ca90d155adb95fa9438f29061e856ee11984bd75735",
+  "testedAt": "2026-09-04T16:38:51.457Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "eab7fab67ce14f6a84a3641a27de5389d38768fa29a768580aefb65a19585e14",
+  "plugin": {
+    "name": "NormanFxxkingRockwell/dsh-keyboard-history",
+    "slug": "normanfxxkingrockwell-dsh-keyboard-history",
+    "install": "dsh plugin --profile web add github:NormanFxxkingRockwell/dsh-keyboard-history#e6e8033603a02de351a0d9663b4f09a2af1080ba",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-keyboard-history"
+    ],
+    "dependencies": [
+      "dsh-keyboard-history"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "6137f8a4e2b9a8784b7720f13ad40b186dbe2471a72b4997520434fdb0ee27bb",
+  "testedAt": "2026-09-04T16:42:34.526Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

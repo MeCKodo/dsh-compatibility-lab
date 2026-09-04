@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "cf2242145ab2396e48d84554bdcfc48cb03bee627bd00833ef68d0153ba2fc3e",
+  "plugin": {
+    "name": "Moonshile/moonshile-dsh-plugins",
+    "slug": "moonshile-moonshile-dsh-plugins",
+    "install": "dsh plugin --profile web add dsh-workspace-sort",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-workspace-sort"
+    ],
+    "dependencies": [
+      "dsh-workspace-sort"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7df322220813ff23baacf3af6b3581ff66ff8aa898696fedc90abd16f0191813",
+  "testedAt": "2026-09-04T16:36:33.908Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9ce1b86414864c63506f7f776335b0d31d98a7b9fe001fd6df2e053be478036a",
+  "plugin": {
+    "name": "nailing10086-zx/dsh-custom-ui",
+    "slug": "nailing10086-zx-dsh-custom-ui",
+    "install": "dsh plugin --profile web add dsh-custom-ui",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "failed"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3ba8ad70d51be9e640d2397f16df2e20496adc3e61376eb61fbb7e48ac64e80a",
+  "testedAt": "2026-09-04T16:39:03.733Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "b81d9459c2933babcace4c509076d08e23a065fda77d4a9d5b7b9b5549db5cab",
+  "plugin": {
+    "name": "NecromanAlbert/dsh-show-media",
+    "slug": "necromanalbert-dsh-show-media",
+    "install": "dsh plugin --profile desktop add github:NecromanAlbert/dsh-show-media",
+    "profile": "desktop"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "boot-failed",
+  "detail": "registered plugin caused the profile help surface to fail during boot",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "failed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "dsh-show-media"
+    ],
+    "dependencies": [
+      "dsh-show-media"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "00f7f753c6966a1c7be7a22d45c16a9ce90414fb7eb1317ce06de054c721033f",
+  "testedAt": "2026-09-04T16:40:16.825Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

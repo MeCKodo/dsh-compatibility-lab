@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c1a84d339c3722935cf0bcf3a86e434e37292b08ceca4991ddb16734b704fcf2",
+  "plugin": {
+    "name": "Mombrane/dsh-subagent-monitor",
+    "slug": "mombrane-dsh-subagent-monitor",
+    "install": "dsh plugin --profile web add github:Mombrane/dsh-subagent-monitor#3fa30438d5e976b9c0796d15c3d41b211f52904d",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "0cbfc62594ea4e171160fc355293af6bf83aef60c5fa1f1f93c48c1871dd26e6",
+  "testedAt": "2026-09-04T16:36:32.502Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "033ff3b9a84a8a12576acf9ab57f28c0e164918bad77792aa303177dc1bd4b52",
+  "plugin": {
+    "name": "nikoart-liu/dsh-open-in-x",
+    "slug": "nikoart-liu-dsh-open-in-x",
+    "install": "dsh plugin --profile web add dsh-open-in-x",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-open-in-x"
+    ],
+    "dependencies": [
+      "dsh-open-in-x"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "58320ddab0d98efd009ade9998f29f260faf5114c0212f686216f7fa33967a3c",
+  "testedAt": "2026-09-04T16:41:34.874Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

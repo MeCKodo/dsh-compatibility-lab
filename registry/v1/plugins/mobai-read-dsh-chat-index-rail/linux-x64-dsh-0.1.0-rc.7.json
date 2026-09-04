@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "8fff3c514dd4c6d0274911d5ed6d6b189908f67f1cd62ee02aeac6b2f4ddb7ab",
+  "plugin": {
+    "name": "Mobai-read/dsh-chat-index-rail",
+    "slug": "mobai-read-dsh-chat-index-rail",
+    "install": "dsh plugin --profile web add github:Mobai-read/dsh-chat-index-rail#217cb0ffdf07dc03aab3312677cac84059c898d8",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-chat-index-rail"
+    ],
+    "dependencies": [
+      "dsh-chat-index-rail"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "1a1f02435e07e534a63dd4cf60adbdcab01efab41674d10fabe17ca792378d3d",
+  "testedAt": "2026-09-04T16:35:24.030Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}

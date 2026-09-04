@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a5636205a0e0dc31cece9deff5c766de16817da525c233a2ed4064b86de7569a",
+  "plugin": {
+    "name": "nexsjournal/dsh-vision-plugin",
+    "slug": "nexsjournal-dsh-vision-plugin",
+    "install": "dsh plugin --profile web add github:nexsjournal/dsh-vision-plugin",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-vision-plugin"
+    ],
+    "dependencies": [
+      "dsh-vision-plugin"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "ff30fab78de558ca04d17dda3cd76b0a262c5e65be66532ab6f4e79c72863f40",
+  "testedAt": "2026-09-04T16:41:23.824Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+    "version": "1.0.0"
+  }
+}
