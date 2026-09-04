@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "4ae5b29c77d3c2ac6d9b2599c3b949108df89cc0942fd8e81a2a6b5ce42a0f60",
+  "plugin": {
+    "name": "Minecraftbe/dsh-toolfold",
+    "slug": "minecraftbe-dsh-toolfold",
+    "install": "dsh plugin --profile web add github:Minecraftbe/dsh-toolfold",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-toolfold"
+    ],
+    "dependencies": [
+      "dsh-toolfold"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "112e72df2f8180c0f66d4443b93046801416590dac38f0e495edfa4c1c305f17",
+  "testedAt": "2026-09-04T11:47:54.836Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "597efe34d612583a4dc3afba43867c2de1ac2a0b",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "4653202ba7f26f5a89ff6b46fe2591adf129c8d63d496b4cd660f6aa471773ed",
+  "plugin": {
+    "name": "mimateinn/dsh-i18n",
+    "slug": "mimateinn-dsh-i18n",
+    "install": "dsh plugin --profile web add github:mimateinn/dsh-i18n#9c3b527bd16d9147f16e8dfe3a16b16886cec2ff",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@mimateinn/dsh-i18n"
+    ],
+    "dependencies": [
+      "@mimateinn/dsh-i18n"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e1f1e128ec52286f83eeb61657d51a580803cb690962605aec6e238c60d58076",
+  "testedAt": "2026-09-04T11:47:47.408Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "597efe34d612583a4dc3afba43867c2de1ac2a0b",
+    "version": "1.0.0"
+  }
+}

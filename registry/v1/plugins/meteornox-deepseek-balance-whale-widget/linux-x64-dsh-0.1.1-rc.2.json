@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "b07404f36e0418b76fff13056e47689d24e2338c6b91da0f1ed638413b879601",
+  "plugin": {
+    "name": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+    "slug": "meteornox-deepseek-balance-whale-widget",
+    "install": "dsh plugin --profile web add github:MeteorNOX/DeepSeek-Balance-Whale-Widget",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-whale-widget"
+    ],
+    "dependencies": [
+      "dsh-whale-widget"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c07e6162bd1a452cf217bbeb190db9ded0d883d7990da48fad537e00973f091e",
+  "testedAt": "2026-09-04T11:45:21.115Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "597efe34d612583a4dc3afba43867c2de1ac2a0b",
+    "version": "1.0.0"
+  }
+}

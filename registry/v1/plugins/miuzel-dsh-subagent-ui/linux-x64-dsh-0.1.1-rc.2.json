@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "1275a9837868d364c4455b04a0b26c89b66d47e867d6459d2b9e87115c6bfc4e",
+  "plugin": {
+    "name": "miuzel/dsh-subagent-ui",
+    "slug": "miuzel-dsh-subagent-ui",
+    "install": "dsh plugin --profile web add github:miuzel/dsh-subagent-ui#646b193e4845917fa9d23439307e7d59b6cf6dff",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-subagent-workspace-ui"
+    ],
+    "dependencies": [
+      "dsh-subagent-workspace-ui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "434ba8b6623ba6db8f800e1ef58e959e878cdcdf6e50e9698b97858b5c521cb7",
+  "testedAt": "2026-09-04T11:48:57.332Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "597efe34d612583a4dc3afba43867c2de1ac2a0b",
+    "version": "1.0.0"
+  }
+}
