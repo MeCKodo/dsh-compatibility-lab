@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "e7983a895743d331b3672cb771a2c9e3dc0bc05a80425163874ec92d2b3214d3",
+  "plugin": {
+    "name": "Nothree-code/folder-tree-sh",
+    "slug": "nothree-code-folder-tree-sh",
+    "install": "dsh plugin --profile web add github:Nothree-code/folder-tree-sh#bd26b1635ae0b55ad0471d71f0fcda8cd27d769c",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "folder-tree-sh"
+    ],
+    "dependencies": [
+      "folder-tree-sh"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8b508ded696e918a1b290c1ee170a7bf7c7e79288b5b95d552512837d29fe00b",
+  "testedAt": "2026-09-04T21:00:46.008Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

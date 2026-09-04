@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "f6e224ff4089bd11d9eec0d480d4d4f26c09f8ca45b0add410c32e05c337cc65",
+  "plugin": {
+    "name": "openma-ai/Martty",
+    "slug": "openma-ai-martty",
+    "install": "dsh plugin --profile martty add martty@latest",
+    "profile": "martty"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "boot-failed",
+  "detail": "registered plugin caused the profile help surface to fail during boot",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "failed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "martty"
+    ],
+    "dependencies": [
+      "martty"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "5b828c50dbc88f5860c556f7433fdde2e942d1b9d800f06a979455fa27f3a1b5",
+  "testedAt": "2026-09-04T21:07:50.339Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "128c8e28080852af7c2649dfb82998ed0f061b8fc1107564e63e4a90d9c37b20",
+  "plugin": {
+    "name": "FSMargoo/dsh-at-file",
+    "slug": "fsmargoo-dsh-at-file",
+    "install": "dsh plugin --profile web add github:FSMargoo/dsh-at-file#75a9accbe2c58b26149e515248db2ce4670510eb",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-at-file"
+    ],
+    "dependencies": [
+      "dsh-at-file"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "bab4f80345e55e8439a6b87cbfc02beb28d39f2eb92923bbbe025000b7660fcf",
+  "testedAt": "2026-09-04T21:04:18.510Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

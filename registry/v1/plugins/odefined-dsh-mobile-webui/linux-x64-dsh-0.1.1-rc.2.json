@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "da9c09b4f3ba90e0262e5a04c2e0f470b77cbef084f4523f6c028bf9d3bcf310",
+  "plugin": {
+    "name": "Odefined/dsh-mobile-webui",
+    "slug": "odefined-dsh-mobile-webui",
+    "install": "dsh plugin --profile web add github:Odefined/dsh-mobile-webui#d1274d5803f5ec794db07b7a371d478bb5d1af12",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-mobile-webui"
+    ],
+    "dependencies": [
+      "dsh-mobile-webui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c8256db24cc3bb355dba2035d7884b7dc3ed4bdf6c8373222231418eef35274e",
+  "testedAt": "2026-09-04T21:02:05.771Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

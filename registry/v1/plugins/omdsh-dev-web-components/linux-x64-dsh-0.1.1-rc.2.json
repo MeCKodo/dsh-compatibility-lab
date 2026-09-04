@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "eb1f1c62b033d21c9621f65ca06b7e95f815f960c62ccb23c9b9c36d6ac66c84",
+  "plugin": {
+    "name": "omdsh-dev/web-components",
+    "slug": "omdsh-dev-web-components",
+    "install": "dsh plugin --profile web add github:omdsh-dev/web-components#6d6f77aaf881a78b45c6ec6593b9db8788abcef4",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4510ab3d2abfe8440207e1c8a11c853536ae8926fb565dcb2c3b447fa54df201",
+  "testedAt": "2026-09-04T21:05:33.295Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "35e4e29d7b0eadc5da46ea82df79681e951bfca4308d0cf8b55f44e97e413b61",
+  "plugin": {
+    "name": "omdsh-dev/ex-setting",
+    "slug": "omdsh-dev-ex-setting",
+    "install": "dsh plugin --profile web add github:omdsh-dev/ex-setting#9bc01b547d22af6a69d3392916aaaf8ccc533d1d",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@deepseek-ai/dsh-ex-setting"
+    ],
+    "dependencies": [
+      "@deepseek-ai/dsh-ex-setting"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e407a01d7f8e89331b58ff904fa34207c9eb6c0659843fcb801f7273472fc616",
+  "testedAt": "2026-09-04T21:04:23.564Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

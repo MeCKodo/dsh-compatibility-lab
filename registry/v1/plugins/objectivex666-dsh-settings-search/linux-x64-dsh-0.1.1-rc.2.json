@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "90de46efe2d44d94b46090146ca820a13469ec450f26d0bb5ad96a58a167a0d7",
+  "plugin": {
+    "name": "objectivex666/dsh-settings-search",
+    "slug": "objectivex666-dsh-settings-search",
+    "install": "dsh plugin --profile web add github:objectivex666/dsh-settings-search",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@objectivex666/dsh-settings-search"
+    ],
+    "dependencies": [
+      "@objectivex666/dsh-settings-search"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "d877fecb11add78996e32f055f4836f7e76cf57ef1ac5d964e9392429bb59a15",
+  "testedAt": "2026-09-04T21:01:52.462Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

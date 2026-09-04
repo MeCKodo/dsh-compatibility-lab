@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "c28b085c34efb108768ec943b25653c1726928a9e0ee8b3c990aceb137bca56d",
+  "plugin": {
+    "name": "opencues/opencues",
+    "slug": "opencues-opencues",
+    "install": "dsh plugin --profile web add @opencues/dsh",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@opencues/dsh"
+    ],
+    "dependencies": [
+      "@opencues/dsh"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "3c97bb9684a57769b0f3f80996dbfeda5dcc038b43ce9067dac89f48b8cf617a",
+  "testedAt": "2026-09-04T21:07:09.223Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}

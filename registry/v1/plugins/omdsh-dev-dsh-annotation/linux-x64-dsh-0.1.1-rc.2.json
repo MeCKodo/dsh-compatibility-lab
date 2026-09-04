@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "559cecbab425016880b742e3eca853f50aff791b7d9f0f471005b782c7c3b952",
+  "plugin": {
+    "name": "omdsh-dev/dsh-annotation",
+    "slug": "omdsh-dev-dsh-annotation",
+    "install": "dsh plugin --profile web add @changfenhuang/dsh-annotation",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@changfenhuang/dsh-annotation"
+    ],
+    "dependencies": [
+      "@changfenhuang/dsh-annotation"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4d8c3cc7b405970d7da83f6bc3b4bca4fb4dd6f123d88eb3d8ec0b1cb5fbb4ef",
+  "testedAt": "2026-09-04T21:02:58.055Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+    "version": "1.0.0"
+  }
+}
