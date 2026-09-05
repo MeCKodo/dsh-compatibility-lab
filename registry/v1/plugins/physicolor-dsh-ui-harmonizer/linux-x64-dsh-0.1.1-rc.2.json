@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "4d011e24d15ed98f5ba4ac4b45d51e7bb8ba5a2dd0430dbad83e37c2041f596d",
+  "plugin": {
+    "name": "Physicolor/dsh-ui-harmonizer",
+    "slug": "physicolor-dsh-ui-harmonizer",
+    "install": "dsh plugin --profile web add dsh-ui-harmonizer",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-ui-harmonizer"
+    ],
+    "dependencies": [
+      "dsh-ui-harmonizer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "10ee531416f1f1d1c795252733888018c989af4ed7487db4d5d25fa1a43a3dcb",
+  "testedAt": "2026-09-05T05:02:35.826Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}

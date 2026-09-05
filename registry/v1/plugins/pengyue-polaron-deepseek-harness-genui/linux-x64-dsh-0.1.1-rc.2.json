@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "67713d65e3b5f712cdc0bc7f59073ab1a5644516a767787de56f47b968884815",
+  "plugin": {
+    "name": "pengyue-polaron/deepseek-harness-genui",
+    "slug": "pengyue-polaron-deepseek-harness-genui",
+    "install": "dsh plugin --profile web add dsh-plugin-genui",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-plugin-genui"
+    ],
+    "dependencies": [
+      "dsh-plugin-genui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c01712ce12ac17737087df02bea106dae899893bfcc1f9707fad1f09de418fdd",
+  "testedAt": "2026-09-05T04:57:58.712Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}

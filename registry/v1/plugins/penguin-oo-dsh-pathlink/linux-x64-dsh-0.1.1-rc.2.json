@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "49ee695cb5e15840158c0ffcc3b678d5f656c9e80be697d17ba2b99a832c46bf",
+  "plugin": {
+    "name": "penguin-oo/dsh-pathlink",
+    "slug": "penguin-oo-dsh-pathlink",
+    "install": "dsh plugin --profile web add github:penguin-oo/dsh-pathlink",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-pathlink"
+    ],
+    "dependencies": [
+      "dsh-pathlink"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "8868e6cc7369d3d039b1b59059e52d42370772ddd8a99d2f040447d3e0b3df7f",
+  "testedAt": "2026-09-05T04:57:25.683Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "d7ef630de350e826fd9f033cbc504e8660dc29e0a118ce48787e91c543b93232",
+  "plugin": {
+    "name": "ph4310822/dsh-edex-jarvis-ui",
+    "slug": "ph4310822-dsh-edex-jarvis-ui",
+    "install": "dsh plugin --profile web add @danielng23/dsh-edex-jarvis-ui",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@danielng23/dsh-edex-jarvis-ui"
+    ],
+    "dependencies": [
+      "@danielng23/dsh-edex-jarvis-ui"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "80f25027c1e5041dc1b41a06144ba29e8fb18dc5c8755eb242e4593a53ce7a1a",
+  "testedAt": "2026-09-05T04:59:11.181Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}

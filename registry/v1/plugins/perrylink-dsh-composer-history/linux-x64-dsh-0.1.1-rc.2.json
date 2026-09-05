@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "85b63d97445db671f396208d6db73079441744cf2320e49dfc1310e170721eea",
+  "plugin": {
+    "name": "PerryLink/dsh-composer-history",
+    "slug": "perrylink-dsh-composer-history",
+    "install": "dsh plugin --profile web add github:PerryLink/dsh-composer-history#main",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-composer-history"
+    ],
+    "dependencies": [
+      "dsh-composer-history"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "11f92c43b756eee453023b4007258b25b4d5ace7365c71989f9c2948d8c7688d",
+  "testedAt": "2026-09-05T04:58:33.965Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}

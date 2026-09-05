@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "6704dd1a9ae7bca10bd1f38a6139471e756e896dd630bc406a383ec0395b4c13",
+  "plugin": {
+    "name": "Pasumao/dsh-plugin-workbench",
+    "slug": "pasumao-dsh-plugin-workbench",
+    "install": "dsh plugin --profile web add github:Pasumao/dsh-plugin-workbench",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "a817c689252f7f348183b7f3be9073a050cfaa6b1c2935f110e4fc654056217d",
+  "testedAt": "2026-09-05T04:55:48.115Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}

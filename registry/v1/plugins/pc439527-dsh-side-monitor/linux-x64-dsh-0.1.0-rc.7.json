@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "0a4f3c3b377a0c779928f5ba0027e4b5aabe50b485e7a33c5561fb354c949731",
+  "plugin": {
+    "name": "pc439527/dsh-side-monitor",
+    "slug": "pc439527-dsh-side-monitor",
+    "install": "dsh plugin --profile web add github:pc439527/dsh-side-monitor#83b35268edb2329fad71289378ce5a218e83669d",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-side-monitor"
+    ],
+    "dependencies": [
+      "dsh-side-monitor"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "a16b4d1b7ffb528ffbbf9008fee5e1d088dc3c72880a496c3a19289ff1019008",
+  "testedAt": "2026-09-05T04:55:44.396Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "078c2f58de408873c9131918649b0804c680d8ea",
+    "version": "1.0.0"
+  }
+}
