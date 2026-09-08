@@ -69,7 +69,8 @@ export function validateReceipt(receipt) {
   safeObserved(receipt.observed)
   if (receipt.outputDigest !== null && !/^[a-f0-9]{64}$/.test(receipt.outputDigest || '')) throw new Error('invalid outputDigest')
   const testedAt = Date.parse(receipt.testedAt)
-  if (!Number.isFinite(testedAt) || Math.abs(Date.now() - testedAt) > 7 * 86_400_000) throw new Error('testedAt is outside the accepted window')
+  // Historical evidence remains valid as it ages; the planner owns retesting.
+  if (!Number.isFinite(testedAt) || testedAt - Date.now() > 7 * 86_400_000) throw new Error('testedAt is invalid or too far in the future')
   exactKeys(receipt.runner, ['repository', 'revision', 'version'], 'runner')
   boundedString(receipt.runner.repository, 200, 'runner.repository')
   boundedString(receipt.runner.revision, 100, 'runner.revision')
@@ -81,6 +82,12 @@ export function validateReceipt(receipt) {
     runnerVersion: receipt.runner.version,
   })
   if (expectedFingerprint !== receipt.fingerprint) throw new Error('fingerprint does not match receipt content')
+  return receipt
+}
+
+export function validateIncomingReceipt(receipt) {
+  validateReceipt(receipt)
+  if (Date.now() - Date.parse(receipt.testedAt) > 7 * 86_400_000) throw new Error('testedAt is outside the accepted window')
   return receipt
 }
 
@@ -107,7 +114,7 @@ export async function publish({ incoming = 'incoming', registry = 'registry/v1' 
 
   for (const file of files.sort()) {
     if ((await readFile(file)).byteLength > 64 * 1024) throw new Error(`receipt is too large: ${basename(file)}`)
-    const receipt = validateReceipt(JSON.parse(await readFile(file, 'utf8')))
+    const receipt = validateIncomingReceipt(JSON.parse(await readFile(file, 'utf8')))
     if (receipt.status === 'inconclusive') {
       skipped += 1
       continue
