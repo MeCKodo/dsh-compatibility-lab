@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-09T17:01:26.474Z",
+  "generated": "2026-09-09T21:17:43.188Z",
   "source": {
     "catalog": "https://deepseekplugin.org/registry/v1/catalog.json"
   },
@@ -4474,10 +4474,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T06:07:51.495Z",
+      "testedAt": "2026-09-09T21:08:29.470Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chengzhi43-dsh-file/linux-x64-dsh-0.1.0-rc.7.json"
@@ -4511,10 +4511,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T06:08:07.552Z",
+      "testedAt": "2026-09-09T21:08:41.091Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chengzhi43-dsh-file/linux-x64-dsh-0.1.1-rc.2.json"
@@ -4548,10 +4548,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T06:10:13.708Z",
+      "testedAt": "2026-09-09T21:09:28.901Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chenyiming-aaa-dsh-ui-ux-pro-max/linux-x64-dsh-0.1.0-rc.7.json"
@@ -4585,10 +4585,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T06:10:18.818Z",
+      "testedAt": "2026-09-09T21:10:36.466Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "a59199b681ec559420a10d17d0d7dab733cbb748",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chenyiming-aaa-dsh-ui-ux-pro-max/linux-x64-dsh-0.1.1-rc.2.json"
@@ -4696,10 +4696,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:22:47.390Z",
+      "testedAt": "2026-09-09T21:09:46.818Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/choi-peng-dsh-footer-order/linux-x64-dsh-0.1.0-rc.7.json"
@@ -4733,10 +4733,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:22:40.738Z",
+      "testedAt": "2026-09-09T21:10:56.109Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/choi-peng-dsh-footer-order/linux-x64-dsh-0.1.1-rc.2.json"
@@ -4770,10 +4770,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:22:38.870Z",
+      "testedAt": "2026-09-09T21:11:12.310Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chongfengdy-dev-dsh-message-outline/linux-x64-dsh-0.1.0-rc.7.json"
@@ -4807,10 +4807,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:23:45.516Z",
+      "testedAt": "2026-09-09T21:11:56.595Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chongfengdy-dev-dsh-message-outline/linux-x64-dsh-0.1.1-rc.2.json"
@@ -4844,10 +4844,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:23:53.106Z",
+      "testedAt": "2026-09-09T21:12:23.987Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chuantianml-dsh-chat-tidy/linux-x64-dsh-0.1.0-rc.7.json"
@@ -4881,10 +4881,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:24:10.306Z",
+      "testedAt": "2026-09-09T21:12:40.969Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chuantianml-dsh-chat-tidy/linux-x64-dsh-0.1.1-rc.2.json"
@@ -4918,10 +4918,10 @@
         }
       },
       "detail": "source install needs a build script approval before registration",
-      "testedAt": "2026-08-31T14:25:04.263Z",
+      "testedAt": "2026-09-09T21:13:48.748Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chuantianml-prompt-for-me/linux-x64-dsh-0.1.0-rc.7.json"
@@ -4955,10 +4955,10 @@
         }
       },
       "detail": "source install needs a build script approval before registration",
-      "testedAt": "2026-08-31T14:25:05.515Z",
+      "testedAt": "2026-09-09T21:13:40.920Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/chuantianml-prompt-for-me/linux-x64-dsh-0.1.1-rc.2.json"
@@ -4992,10 +4992,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:25:19.358Z",
+      "testedAt": "2026-09-09T21:14:23.205Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/coldcgh-dsh-deepseek-chat/linux-x64-dsh-0.1.0-rc.7.json"
@@ -5029,10 +5029,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:26:23.607Z",
+      "testedAt": "2026-09-09T21:14:51.560Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/coldcgh-dsh-deepseek-chat/linux-x64-dsh-0.1.1-rc.2.json"
@@ -5066,10 +5066,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:26:42.510Z",
+      "testedAt": "2026-09-09T21:15:01.640Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/cookiesheep-whale-on-desk/linux-x64-dsh-0.1.0-rc.7.json"
@@ -5103,10 +5103,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:26:30.844Z",
+      "testedAt": "2026-09-09T21:15:32.521Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/cookiesheep-whale-on-desk/linux-x64-dsh-0.1.1-rc.2.json"
@@ -5214,10 +5214,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:27:49.116Z",
+      "testedAt": "2026-09-09T21:16:13.886Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/cuhaitiang0405-collab-dsh-indexbookmark/linux-x64-dsh-0.1.0-rc.7.json"
@@ -5251,10 +5251,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:27:46.731Z",
+      "testedAt": "2026-09-09T21:16:18.807Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/cuhaitiang0405-collab-dsh-indexbookmark/linux-x64-dsh-0.1.1-rc.2.json"
@@ -5288,10 +5288,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:28:00.552Z",
+      "testedAt": "2026-09-09T21:16:48.840Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/cyrus123456-dsh-johari-cognition-quadrant-dialog-composer/linux-x64-dsh-0.1.0-rc.7.json"
@@ -5325,10 +5325,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-31T14:29:00.171Z",
+      "testedAt": "2026-09-09T21:17:30.893Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "8fad8e4b308ec20a0162aebfd4045f3e08dc06da",
+        "revision": "5df2052125d8ecb9f1a69081f56952cfec440cac",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/cyrus123456-dsh-johari-cognition-quadrant-dialog-composer/linux-x64-dsh-0.1.1-rc.2.json"
