@@ -17,14 +17,14 @@
     "pnpmVersion": "10.34.5",
     "dshVersion": "0.1.1-rc.2"
   },
-  "status": "needs-approval",
-  "detail": "source install needs a build script approval before registration",
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
   "checks": {
     "install": {
       "status": "failed"
     },
     "registration": {
-      "status": "blocked"
+      "status": "failed"
     },
     "boot": {
       "status": "not-run"
@@ -38,11 +38,11 @@
     "dependencies": [],
     "blockedBuildScripts": []
   },
-  "outputDigest": "4039df040d00b2775724ce8e80eb393fb51b58bbe9a032751baf10d210c9e08e",
-  "testedAt": "2026-09-01T12:00:12.766Z",
+  "outputDigest": "f72fb28d9be1f929fac52e2be9dc93e96043a7880025e498fcd6c39ba2a935eb",
+  "testedAt": "2026-09-10T16:42:27.408Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "e7644d427fecae90c0ed044af591e36bd436dfd0",
+    "revision": "38e9aebcf0e80294a7d308fda31ea2e90f69e27d",
     "version": "1.0.0"
   }
 }
