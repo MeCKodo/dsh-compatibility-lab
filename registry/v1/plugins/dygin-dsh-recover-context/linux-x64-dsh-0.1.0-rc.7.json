@@ -41,11 +41,11 @@
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "ca2f156e79afd52554497101b3452b96e756a9118a6a0cd3df66769ce008e5d2",
-  "testedAt": "2026-09-01T05:38:17.551Z",
+  "outputDigest": "1117adcf7bb716b36d5a4b246530493c5208c9290932014c50d314072cc98264",
+  "testedAt": "2026-09-10T11:50:01.358Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "6d43340ef99aca70edc332f83c3b2e090ac80a04",
+    "revision": "dc52d86fac387f02848f20dbc818a799254ad818",
     "version": "1.0.0"
   }
 }
