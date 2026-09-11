@@ -36,10 +36,10 @@
     "blockedBuildScripts": []
   },
   "outputDigest": null,
-  "testedAt": "2026-09-02T21:17:34.928Z",
+  "testedAt": "2026-09-11T21:19:40.512Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "db20c32a143edf3324c8dfd7fb62434aff395b76",
+    "revision": "1dedfd04d48af51a0c94a4f9da4c573f5086d0de",
     "version": "1.0.0"
   }
 }
