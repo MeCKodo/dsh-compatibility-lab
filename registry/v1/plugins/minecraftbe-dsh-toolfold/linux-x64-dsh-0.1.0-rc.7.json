@@ -17,35 +17,32 @@
     "pnpmVersion": "10.34.5",
     "dshVersion": "0.1.0-rc.7"
   },
-  "status": "passed",
-  "detail": "plugin installed, registered, and booted the profile help surface",
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
   "checks": {
     "install": {
-      "status": "passed"
+      "status": "failed"
     },
     "registration": {
-      "status": "passed"
+      "status": "blocked"
     },
     "boot": {
-      "status": "passed"
+      "status": "not-run"
     }
   },
   "observed": {
     "bundles": [
       "@deepseek-ai/dsh-base",
-      "@deepseek-ai/dsh-web-app",
-      "dsh-toolfold"
+      "@deepseek-ai/dsh-web-app"
     ],
-    "dependencies": [
-      "dsh-toolfold"
-    ],
+    "dependencies": [],
     "blockedBuildScripts": []
   },
-  "outputDigest": "8da50f993df58d9bcb1abcc9a62043a612e0e4b306565f62aebb6001a75fcf3a",
-  "testedAt": "2026-09-04T11:47:50.801Z",
+  "outputDigest": "05c020de5f3cd557594deee95b50322bda57a40bcb8d473c7db52518b5138701",
+  "testedAt": "2026-09-13T21:06:51.410Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "597efe34d612583a4dc3afba43867c2de1ac2a0b",
+    "revision": "4f13d1d75bc6f25c8c1c0d92a96f0a03c898cc2a",
     "version": "1.0.0"
   }
 }
