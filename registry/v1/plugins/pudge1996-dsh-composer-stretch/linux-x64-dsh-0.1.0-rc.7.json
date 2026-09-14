@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "d58b7dbda6bfd1096e4f2a402c58b580f3fdd12e88eff924f3a60438b7ab0141",
+  "fingerprint": "29790b82177c6449d6081c3089ef94fcadc938c36d6681fad88f3cc8fe5a4947",
   "plugin": {
-    "name": "Physicolor/dsh-ui-harmonizer",
-    "slug": "physicolor-dsh-ui-harmonizer",
-    "install": "dsh plugin --profile web add dsh-ui-harmonizer",
+    "name": "Pudge1996/dsh-composer-stretch",
+    "slug": "pudge1996-dsh-composer-stretch",
+    "install": "dsh plugin --profile web add dsh-composer-stretch",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-harmonizer"
+      "dsh-composer-stretch"
     ],
     "dependencies": [
-      "dsh-ui-harmonizer"
+      "dsh-composer-stretch"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "9a66322cc3eef02138b986f7071e7997cc68f76a1338a2b1efaeb9183b6ccbb2",
-  "testedAt": "2026-09-14T22:03:12.279Z",
+  "outputDigest": "07ded5d211304587d8d356df5223f44e52bd82abd7cb955ef1acb399d976ea55",
+  "testedAt": "2026-09-14T22:06:58.021Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "d07586a0a64ff43c30d3e26b052552d5a601aad1",

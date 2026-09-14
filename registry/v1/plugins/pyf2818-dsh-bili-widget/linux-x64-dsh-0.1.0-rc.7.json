@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "d58b7dbda6bfd1096e4f2a402c58b580f3fdd12e88eff924f3a60438b7ab0141",
+  "fingerprint": "027450d2942e5eeed53c39be756a535cf80bc2e9a2024d831195f6c87f67a423",
   "plugin": {
-    "name": "Physicolor/dsh-ui-harmonizer",
-    "slug": "physicolor-dsh-ui-harmonizer",
-    "install": "dsh plugin --profile web add dsh-ui-harmonizer",
+    "name": "pyf2818/dsh-bili-widget",
+    "slug": "pyf2818-dsh-bili-widget",
+    "install": "dsh plugin --profile web add github:pyf2818/dsh-bili-widget#7d564f5f134389a905b5f39485469d602eee2b4a",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-harmonizer"
+      "@dsh-external/dsh-bili-widget"
     ],
     "dependencies": [
-      "dsh-ui-harmonizer"
+      "@dsh-external/dsh-bili-widget"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "9a66322cc3eef02138b986f7071e7997cc68f76a1338a2b1efaeb9183b6ccbb2",
-  "testedAt": "2026-09-14T22:03:12.279Z",
+  "outputDigest": "d95e70b3a406c921ca872f44e42fc8048e520163aa74b2e89f917664e706d424",
+  "testedAt": "2026-09-14T22:08:09.667Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "d07586a0a64ff43c30d3e26b052552d5a601aad1",

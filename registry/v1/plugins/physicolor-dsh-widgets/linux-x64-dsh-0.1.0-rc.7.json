@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "d58b7dbda6bfd1096e4f2a402c58b580f3fdd12e88eff924f3a60438b7ab0141",
+  "fingerprint": "38232e5dde0c86cd71cef0d28c6df5ac2ac6206427543e683fa3c798ade485f4",
   "plugin": {
-    "name": "Physicolor/dsh-ui-harmonizer",
-    "slug": "physicolor-dsh-ui-harmonizer",
-    "install": "dsh plugin --profile web add dsh-ui-harmonizer",
+    "name": "Physicolor/dsh-widgets",
+    "slug": "physicolor-dsh-widgets",
+    "install": "dsh plugin --profile web add dsh-widgets",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-harmonizer"
+      "dsh-widgets"
     ],
     "dependencies": [
-      "dsh-ui-harmonizer"
+      "dsh-widgets"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "9a66322cc3eef02138b986f7071e7997cc68f76a1338a2b1efaeb9183b6ccbb2",
-  "testedAt": "2026-09-14T22:03:12.279Z",
+  "outputDigest": "b365c89bfbf0f1175ab821211a263bc3d4fbd37a4708ff7824d990ece924b2e1",
+  "testedAt": "2026-09-14T22:04:15.440Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "d07586a0a64ff43c30d3e26b052552d5a601aad1",

@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "d58b7dbda6bfd1096e4f2a402c58b580f3fdd12e88eff924f3a60438b7ab0141",
+  "fingerprint": "82beee77d9ded31b9a7762ee83a589a2c4433c3a5f013b6ff35d99a74e3a3cb0",
   "plugin": {
-    "name": "Physicolor/dsh-ui-harmonizer",
-    "slug": "physicolor-dsh-ui-harmonizer",
-    "install": "dsh plugin --profile web add dsh-ui-harmonizer",
+    "name": "Pudge1996/dsh-composer-stretch",
+    "slug": "pudge1996-dsh-composer-stretch",
+    "install": "dsh plugin --profile web add dsh-composer-stretch",
     "profile": "web"
   },
   "environment": {
-    "id": "linux-x64-dsh-0.1.0-rc.7",
-    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
     "surface": "profile",
     "os": "linux",
     "arch": "x64",
     "nodeVersion": "22",
     "pnpmVersion": "10.34.5",
-    "dshVersion": "0.1.0-rc.7"
+    "dshVersion": "0.1.1-rc.2"
   },
   "status": "passed",
   "detail": "plugin installed, registered, and booted the profile help surface",
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-harmonizer"
+      "dsh-composer-stretch"
     ],
     "dependencies": [
-      "dsh-ui-harmonizer"
+      "dsh-composer-stretch"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "9a66322cc3eef02138b986f7071e7997cc68f76a1338a2b1efaeb9183b6ccbb2",
-  "testedAt": "2026-09-14T22:03:12.279Z",
+  "outputDigest": "d36ac3a0308b54a34c6af628ab2fe2df3b73e8d4117c138734febe0a59b53527",
+  "testedAt": "2026-09-14T22:07:04.767Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "d07586a0a64ff43c30d3e26b052552d5a601aad1",
