@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-13T21:14:11.409Z",
+  "generated": "2026-09-14T05:31:14.128Z",
   "source": {
     "catalog": "https://deepseekplugin.org/registry/v1/catalog.json"
   },
@@ -8470,10 +8470,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:03:29.259Z",
+      "testedAt": "2026-09-14T05:28:36.204Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/fsmargoo-dsh-at-file/linux-x64-dsh-0.1.0-rc.7.json"
@@ -8507,10 +8507,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:04:18.510Z",
+      "testedAt": "2026-09-14T05:29:06.674Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/fsmargoo-dsh-at-file/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17424,10 +17424,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T16:40:24.471Z",
+      "testedAt": "2026-09-14T05:23:19.371Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/nexsjournal-dsh-vision-plugin/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17461,10 +17461,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T16:41:23.824Z",
+      "testedAt": "2026-09-14T05:23:16.089Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/nexsjournal-dsh-vision-plugin/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17498,10 +17498,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T16:41:25.274Z",
+      "testedAt": "2026-09-14T05:23:47.899Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/nikoart-liu-dsh-open-in-x/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17535,10 +17535,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T16:41:34.874Z",
+      "testedAt": "2026-09-14T05:24:22.864Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/nikoart-liu-dsh-open-in-x/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17572,10 +17572,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T16:42:34.526Z",
+      "testedAt": "2026-09-14T05:24:30.447Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/normanfxxkingrockwell-dsh-keyboard-history/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17609,10 +17609,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T16:42:32.562Z",
+      "testedAt": "2026-09-14T05:24:57.411Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "6ad01fa904a81dfc202784c62ea1925178ab0763",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/normanfxxkingrockwell-dsh-keyboard-history/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17646,10 +17646,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:00:46.008Z",
+      "testedAt": "2026-09-14T05:25:36.877Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/nothree-code-folder-tree-sh/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17683,10 +17683,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:00:51.129Z",
+      "testedAt": "2026-09-14T05:25:39.192Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/nothree-code-folder-tree-sh/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17794,10 +17794,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:00:36.535Z",
+      "testedAt": "2026-09-14T05:26:06.654Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/objectivex666-dsh-settings-search/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17831,10 +17831,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:01:52.462Z",
+      "testedAt": "2026-09-14T05:26:48.284Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/objectivex666-dsh-settings-search/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17868,10 +17868,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:01:52.209Z",
+      "testedAt": "2026-09-14T05:26:56.076Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/odefined-dsh-mobile-webui/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17905,10 +17905,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:02:05.771Z",
+      "testedAt": "2026-09-14T05:27:21.101Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/odefined-dsh-mobile-webui/linux-x64-dsh-0.1.1-rc.2.json"
@@ -17942,10 +17942,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:03:05.446Z",
+      "testedAt": "2026-09-14T05:27:56.592Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/omdsh-dev-dsh-annotation/linux-x64-dsh-0.1.0-rc.7.json"
@@ -17979,10 +17979,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-09-04T21:02:58.055Z",
+      "testedAt": "2026-09-14T05:28:29.020Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "03bd65a91dac39e61377a01f07860a1a7eeed365",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/omdsh-dev-dsh-annotation/linux-x64-dsh-0.1.1-rc.2.json"
@@ -18016,10 +18016,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-29T17:10:52.589Z",
+      "testedAt": "2026-09-14T05:29:50.379Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/omdsh-dev-dsh-better-sidebar/linux-x64-dsh-0.1.0-rc.7.json"
@@ -18053,10 +18053,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-29T17:11:05.499Z",
+      "testedAt": "2026-09-14T05:29:53.921Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/omdsh-dev-dsh-better-sidebar/linux-x64-dsh-0.1.1-rc.2.json"
@@ -18090,10 +18090,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-29T17:12:02.803Z",
+      "testedAt": "2026-09-14T05:30:12.824Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/omdsh-dev-dsh-genui/linux-x64-dsh-0.1.0-rc.7.json"
@@ -18127,10 +18127,10 @@
         }
       },
       "detail": "plugin installed, registered, and booted the profile help surface",
-      "testedAt": "2026-08-29T17:12:20.730Z",
+      "testedAt": "2026-09-14T05:31:02.697Z",
       "runner": {
         "repository": "MeCKodo/dsh-compatibility-lab",
-        "revision": "340b5b24f3861ae7d8883e65facdc0953311617d",
+        "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
         "version": "1.0.0"
       },
       "path": "registry/v1/plugins/omdsh-dev-dsh-genui/linux-x64-dsh-0.1.1-rc.2.json"
