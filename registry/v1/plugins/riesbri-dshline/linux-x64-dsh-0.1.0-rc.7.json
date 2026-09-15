@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "254015257d152f1e9f12a3a75979a2a6bf546b236d7b74c495567bfd77ad0368",
+  "plugin": {
+    "name": "riesbri/dshline",
+    "slug": "riesbri-dshline",
+    "install": "dsh plugin --profile dshline add @dshline/dshline",
+    "profile": "dshline"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@dshline/dshline"
+    ],
+    "dependencies": [
+      "@dshline/dshline"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "daa56d4426a88d331361d846a5c09c5ab17eac52436fb48114f9f3de8788ba02",
+  "testedAt": "2026-09-15T05:21:53.366Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

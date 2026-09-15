@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "b5346bd376a21b63447f3bbfd6d855ce1c178a7dde7df60ff5ca24b811411a60",
+  "plugin": {
+    "name": "RAFOLIE/dsh-desktop-windowos",
+    "slug": "rafolie-dsh-desktop-windowos",
+    "install": "dsh plugin --profile web add dsh-desktop-plugin",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-desktop-plugin"
+    ],
+    "dependencies": [
+      "dsh-desktop-plugin"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "e1826972363790337724eaca922ae826bb156b5d46affede6b0d56ceab5ba205",
+  "testedAt": "2026-09-15T05:18:47.217Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

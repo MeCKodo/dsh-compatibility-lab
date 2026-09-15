@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "e477bdb8b9d8c009684bcfd4231243ebc917287633a1e2cdd19855a713e4d134",
+  "plugin": {
+    "name": "Ri0n72Y/dsh-workspace-scope",
+    "slug": "ri0n72y-dsh-workspace-scope",
+    "install": "dsh plugin --profile web add github:Ri0n72Y/dsh-workspace-scope#50789094dcf2e7efbeaaf0463754cd6da4ccf2d1",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "7cc77b88e61f7b37c19fba695ec96bebdd9a0216ab5fd89d24df752294038299",
+  "testedAt": "2026-09-15T05:20:36.384Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

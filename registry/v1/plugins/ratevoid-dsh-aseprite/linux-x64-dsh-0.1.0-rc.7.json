@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a07ddfd498879373b3756fa6d722da4f94f0980060f25b519b107079eee32129",
+  "plugin": {
+    "name": "Ratevoid/dsh-aseprite",
+    "slug": "ratevoid-dsh-aseprite",
+    "install": "dsh plugin --profile web add github:Ratevoid/dsh-aseprite#e6804fe634380e63c1efe09c4c6a749cc110045b",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.0-rc.7"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-aseprite"
+    ],
+    "dependencies": [
+      "dsh-aseprite"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "035ef27fb0feb44d230dc15312508e6fc92e77a00fc1816bfec92c264e5de719",
+  "testedAt": "2026-09-15T05:18:45.618Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

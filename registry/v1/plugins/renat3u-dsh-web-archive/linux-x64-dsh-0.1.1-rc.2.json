@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a029cfade5e730685e378c55764789b07e5408a5d2db187e6a65e5ab4c0be341",
+  "plugin": {
+    "name": "renat3u/dsh-web-archive",
+    "slug": "renat3u-dsh-web-archive",
+    "install": "dsh plugin --profile web add github:renat3u/dsh-web-archive#777ae5ec25d391dee8ea2087b6db67cb89e8a378",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-web-archive"
+    ],
+    "dependencies": [
+      "dsh-web-archive"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "4400ebed684f16c4773e02123ea9ebd3684f8d1457f574d31949a036b6617a09",
+  "testedAt": "2026-09-15T05:19:49.920Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

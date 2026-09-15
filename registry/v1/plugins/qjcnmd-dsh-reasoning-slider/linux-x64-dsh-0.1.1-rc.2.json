@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "48899faf10aeace70e256578214b0dce7c43662adc1cabe01e3bd865cbcd1536",
+  "plugin": {
+    "name": "qjcnmd/dsh-reasoning-slider",
+    "slug": "qjcnmd-dsh-reasoning-slider",
+    "install": "dsh plugin --profile web add github:qjcnmd/dsh-reasoning-slider",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "reasoning-slider"
+    ],
+    "dependencies": [
+      "reasoning-slider"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "67ff0350302d7840c520437bf7e2db5b497e0ef87d92c7815ed7f2ff81524e7f",
+  "testedAt": "2026-09-15T05:15:18.348Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

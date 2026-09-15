@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a356fe944aa2bd38101c68c22eba24cc357df0bcd4cbc28fe411b45866f2eb55",
+  "plugin": {
+    "name": "Quinn2006/dsh-guise",
+    "slug": "quinn2006-dsh-guise",
+    "install": "dsh plugin --profile web add github:Quinn2006/dsh-guise",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-guise"
+    ],
+    "dependencies": [
+      "dsh-guise"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "c77f8ab7f55112472a769486eb20e8b5094bf0be74bc92f9d06d84f750478ac5",
+  "testedAt": "2026-09-15T05:16:26.142Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}

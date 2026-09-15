@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "49ecb0455ac85736d9fe418cfea7046d38d099f9946d1d06e667520207283a36",
+  "plugin": {
+    "name": "qyw233/dsh-deeplink",
+    "slug": "qyw233-dsh-deeplink",
+    "install": "dsh plugin --profile web add github:qyw233/dsh-deeplink",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "@dsh-community/dsh-deeplink"
+    ],
+    "dependencies": [
+      "@dsh-community/dsh-deeplink"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "b12cb6cbd908797c7e8bc1905c536625582874815ed6766c6fb7c60341c373c3",
+  "testedAt": "2026-09-15T05:16:28.205Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "131fec7c7fb66f633b28848c2ef760a8aa753f01",
+    "version": "1.0.0"
+  }
+}
