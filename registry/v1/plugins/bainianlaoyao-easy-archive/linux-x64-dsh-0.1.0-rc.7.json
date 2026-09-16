@@ -34,18 +34,18 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "easy-archive"
+      "dsh-easy-archive"
     ],
     "dependencies": [
-      "easy-archive"
+      "dsh-easy-archive"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "883b4a10c00fd38f22d83e4b0a115042dc1cee48cf40391d5310ccc7993128c3",
-  "testedAt": "2026-09-09T11:49:59.165Z",
+  "outputDigest": "4da8c9904a1986daaf05865bea8a739ddb8dbc9476033fdb993fd4f601c44f2b",
+  "testedAt": "2026-09-16T17:15:58.514Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "f454c31a068d5cfd1e8612429d8cc5dd19a9e084",
+    "revision": "daa51633d9d5659fb04a469f60b165762d5734d3",
     "version": "1.0.0"
   }
 }
