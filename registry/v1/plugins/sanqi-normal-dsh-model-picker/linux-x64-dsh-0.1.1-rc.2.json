@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "304f5e678c6327c6d766585a37bbe739f5673e84eb73df70f270e58377fe6bd1",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "Sanqi-normal/dsh-model-picker",
+    "slug": "sanqi-normal-dsh-model-picker",
+    "install": "dsh plugin --profile web add github:Sanqi-normal/dsh-model-picker",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "dsh-model-picker"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "dsh-model-picker"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "ebffa1be6fc190ebc206f8e98fbac971ffdc0ecdd3195600b8092d2b089ca10d",
+  "testedAt": "2026-09-16T05:14:38.546Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

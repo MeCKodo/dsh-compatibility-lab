@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "2f5b71468590731267829dbe638b115e15d36b112a3d47d01d9951f67bb4491f",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "sakuraqqq/dsh-auto-paste",
+    "slug": "sakuraqqq-dsh-auto-paste",
+    "install": "dsh plugin --profile web add dsh-auto-paste",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "dsh-auto-paste"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "dsh-auto-paste"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "487fba3b35e9b5ebd3177f05319dfa2c23f088d905a72b049f39d3ab5700ef46",
+  "testedAt": "2026-09-16T05:13:28.789Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

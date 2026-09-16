@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "526fecc7dac03d11675faa058512836ef9ca54c751624c2fe1f651de52264714",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "sanshanya/better-model-provider",
+    "slug": "sanshanya-better-model-provider",
+    "install": "dsh plugin --profile web add github:sanshanya/better-model-provider#master",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "better-model-provider"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "better-model-provider"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "a90751994e18f4b82c2cd31e92605cb9811a10a3ad592958b0022bd05b442357",
+  "testedAt": "2026-09-16T05:15:55.816Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

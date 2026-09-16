@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "dc50e3c32b83d86d1fb833a68212ea88df3567422b23a42b62d5498bf5eb3b13",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "SA1992X/dsh-ctrl-enter-submit",
+    "slug": "sa1992x-dsh-ctrl-enter-submit",
+    "install": "dsh plugin --profile web add dsh-ctrl-enter-submit",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "dsh-ctrl-enter-submit"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "dsh-ctrl-enter-submit"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "021073fde7491e288a1b42d84c0317206f55d541cd6ad5ed5a5cdb041788f6b9",
+  "testedAt": "2026-09-16T05:12:32.106Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

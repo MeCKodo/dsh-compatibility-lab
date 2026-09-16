@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "423b6041ff251dac8a77a03237bea267538e083008c5c0815acb14d2778d63c4",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "sanshanya/better-model-provider",
+    "slug": "sanshanya-better-model-provider",
+    "install": "dsh plugin --profile web add github:sanshanya/better-model-provider#master",
     "profile": "web"
   },
   "environment": {
-    "id": "linux-x64-dsh-0.1.1-rc.2",
-    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
     "surface": "profile",
     "os": "linux",
     "arch": "x64",
     "nodeVersion": "22",
     "pnpmVersion": "10.34.5",
-    "dshVersion": "0.1.1-rc.2"
+    "dshVersion": "0.1.0-rc.7"
   },
   "status": "passed",
   "detail": "plugin installed, registered, and booted the profile help surface",
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "better-model-provider"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "better-model-provider"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "78aa33f88e2a1af463fe3d4a0a4fb7cf378cda8e06ee08124dca2dabf7431d42",
+  "testedAt": "2026-09-16T05:15:49.951Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "6a830289cc555b2e6d3d06d34db128dc2966788057bde9d64f8a4b30ba7cb520",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "Semidia/dsh-sampling-sliders",
+    "slug": "semidia-dsh-sampling-sliders",
+    "install": "dsh plugin --profile web add github:Semidia/dsh-sampling-sliders#19eb0c65bd71500233e581d034894683e4dc2528",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "dsh-sampling-sliders"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "dsh-sampling-sliders"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "6aa18aeb89f78c54ec96fa6f73b2fd8cb8e1cb577b739251b6da74267a50c7c7",
+  "testedAt": "2026-09-16T05:16:55.342Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

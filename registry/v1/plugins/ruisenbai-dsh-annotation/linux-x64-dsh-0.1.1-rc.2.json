@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "ec57a9a200dc97f9f571237a8a13e87ad6584380703a473476641641e8600f9e",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "ruisenbai/dsh-annotation",
+    "slug": "ruisenbai-dsh-annotation",
+    "install": "dsh plugin --profile web add github:ruisenbai/dsh-annotation#25f652e8b13c8f12e2fa2c528591debe35b23650",
     "profile": "web"
   },
   "environment": {
@@ -17,32 +17,29 @@
     "pnpmVersion": "10.34.5",
     "dshVersion": "0.1.1-rc.2"
   },
-  "status": "passed",
-  "detail": "plugin installed, registered, and booted the profile help surface",
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
   "checks": {
     "install": {
-      "status": "passed"
+      "status": "failed"
     },
     "registration": {
-      "status": "passed"
+      "status": "blocked"
     },
     "boot": {
-      "status": "passed"
+      "status": "not-run"
     }
   },
   "observed": {
     "bundles": [
       "@deepseek-ai/dsh-base",
-      "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "@deepseek-ai/dsh-web-app"
     ],
-    "dependencies": [
-      "dsh-ui-enhancer"
-    ],
+    "dependencies": [],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "b18b16cf305a01b20fd550f3feff7815f67e8bd35be2a490ea1c7d7595c2f38e",
+  "testedAt": "2026-09-16T05:11:22.849Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

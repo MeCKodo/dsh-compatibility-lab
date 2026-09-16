@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "1b70d21fdae46fe4b1600e64894fe08ac8ed3e6ac057ec23390cafe44a6fff59",
+  "fingerprint": "e206632ea00caa1ce7a37c0584152fa1338394655dc0f5c223d0be8dc4f7b379",
   "plugin": {
-    "name": "AlexYin-Tongji/dsh-ui-enhancer",
-    "slug": "alexyin-tongji-dsh-ui-enhancer",
-    "install": "dsh plugin --profile web add dsh-ui-enhancer",
+    "name": "sereinmono/dsh-desktop-pet",
+    "slug": "sereinmono-dsh-desktop-pet",
+    "install": "dsh plugin --profile web add github:sereinmono/dsh-desktop-pet#d35e0981b37346aff5732a2f605c2de7981aa130",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-ui-enhancer"
+      "dsh-desktop-pet"
     ],
     "dependencies": [
-      "dsh-ui-enhancer"
+      "dsh-desktop-pet"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "0a21fafa9d65a16b123613f2676a6d35fe5ba803c177c516dd6ad28a058cbfc0",
-  "testedAt": "2026-09-16T05:11:48.343Z",
+  "outputDigest": "5e23e2d7c056a28b9aff015db65230cbaea1685fe27f97e94b4274821fc0fb52",
+  "testedAt": "2026-09-16T05:17:01.457Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",

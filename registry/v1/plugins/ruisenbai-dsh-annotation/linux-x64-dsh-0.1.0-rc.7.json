@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "22250c8dc36e93121693a90435731c82a91872d4c7f3960611f40fcd872ddd62",
+  "fingerprint": "9dffbe2cc02b136cc03931cef85af06349747de6aebe80ffb475d7b45d4b72ac",
   "plugin": {
-    "name": "AlexPeng07/dsh-custom-plugin",
-    "slug": "alexpeng07-dsh-custom-plugin",
-    "install": "dsh plugin --profile web add github:AlexPeng07/dsh-custom-plugin",
+    "name": "ruisenbai/dsh-annotation",
+    "slug": "ruisenbai-dsh-annotation",
+    "install": "dsh plugin --profile web add github:ruisenbai/dsh-annotation#25f652e8b13c8f12e2fa2c528591debe35b23650",
     "profile": "web"
   },
   "environment": {
-    "id": "linux-x64-dsh-0.1.1-rc.2",
-    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "id": "linux-x64-dsh-0.1.0-rc.7",
+    "label": "DSH 0.1.0-rc.7 on Linux x64",
     "surface": "profile",
     "os": "linux",
     "arch": "x64",
     "nodeVersion": "22",
     "pnpmVersion": "10.34.5",
-    "dshVersion": "0.1.1-rc.2"
+    "dshVersion": "0.1.0-rc.7"
   },
   "status": "needs-approval",
   "detail": "source install needs a build script approval before registration",
@@ -38,8 +38,8 @@
     "dependencies": [],
     "blockedBuildScripts": []
   },
-  "outputDigest": "2020b57005844c39b54af82651cf65b6b873b4c83dd3a948fee46dd617c28b30",
-  "testedAt": "2026-09-16T05:10:05.156Z",
+  "outputDigest": "c7431aaf17e0e60690e76254f76cd87a7908b11c3d7943f7eebdb9f98a2307d9",
+  "testedAt": "2026-09-16T05:11:17.035Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "bbdfde665049f67b96bf1d6d7cd31d25a1ceded5",
