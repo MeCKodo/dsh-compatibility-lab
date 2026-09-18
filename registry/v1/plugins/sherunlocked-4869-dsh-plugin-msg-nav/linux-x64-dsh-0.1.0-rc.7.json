@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "37878525d7e7ec5186dcef701b05adc6674c4e9818f1a70448b66981ec0e277f",
+  "fingerprint": "9af64210d6f54d23ec6e36fa75211671e66ccbf3c48060f0bc95f48d445bad14",
   "plugin": {
-    "name": "GeekRicardo/dsh-convmap",
-    "slug": "geekricardo-dsh-convmap",
-    "install": "dsh plugin --profile web add github:GeekRicardo/dsh-convmap#0ed3184e521b93c23aa898467ebc24eecb73e075",
+    "name": "SherUnlocked-4869/dsh-plugin-msg-nav",
+    "slug": "sherunlocked-4869-dsh-plugin-msg-nav",
+    "install": "dsh plugin --profile web add github:SherUnlocked-4869/dsh-plugin-msg-nav",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-convmap"
+      "dsh-plugin-msg-nav"
     ],
     "dependencies": [
-      "dsh-convmap"
+      "dsh-plugin-msg-nav"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "43b24d6167ceb3db38daeafcaa634579320f93d3236620f4a4538aa7d1e3a02f",
-  "testedAt": "2026-09-18T05:12:33.201Z",
+  "outputDigest": "c6cc5f50819e3da4dfcab7aa846105706e9e3b86337c1bb0c0ad7858fbdb7c14",
+  "testedAt": "2026-09-18T05:13:32.608Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "8f7755ce693f76e3d970bca24d7d5fbc49d5117a",

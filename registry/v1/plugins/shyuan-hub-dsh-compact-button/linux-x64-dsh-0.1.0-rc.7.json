@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "fingerprint": "37878525d7e7ec5186dcef701b05adc6674c4e9818f1a70448b66981ec0e277f",
+  "fingerprint": "3cae458acd1f84495ff5f5519df1d5ee7ca111cd0ab0fd0ee0fb5d429db23341",
   "plugin": {
-    "name": "GeekRicardo/dsh-convmap",
-    "slug": "geekricardo-dsh-convmap",
-    "install": "dsh plugin --profile web add github:GeekRicardo/dsh-convmap#0ed3184e521b93c23aa898467ebc24eecb73e075",
+    "name": "shyuan-hub/dsh-compact-button",
+    "slug": "shyuan-hub-dsh-compact-button",
+    "install": "dsh plugin --profile web add dsh-compact-button@latest",
     "profile": "web"
   },
   "environment": {
@@ -34,15 +34,15 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "dsh-convmap"
+      "dsh-compact-button"
     ],
     "dependencies": [
-      "dsh-convmap"
+      "dsh-compact-button"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "43b24d6167ceb3db38daeafcaa634579320f93d3236620f4a4538aa7d1e3a02f",
-  "testedAt": "2026-09-18T05:12:33.201Z",
+  "outputDigest": "6b7386a5858906fb4ed68786747282c21daac07df0dfbf153660e7e1a0bfd415",
+  "testedAt": "2026-09-18T05:14:58.582Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
     "revision": "8f7755ce693f76e3d970bca24d7d5fbc49d5117a",
