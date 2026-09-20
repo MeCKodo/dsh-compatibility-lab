@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "985488ca101174ebdec008f0f44891277a6ac6a3920865d6994792c46e95d0b9",
+  "plugin": {
+    "name": "skyhancloud/dsh-client-ui-quote",
+    "slug": "skyhancloud-dsh-client-ui-quote",
+    "install": "dsh plugin --profile web add github:skyhancloud/dsh-client-ui-quote#627bc2f7739241c60295e46fd62aa9f10109cc69",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "needs-approval",
+  "detail": "source install needs a build script approval before registration",
+  "checks": {
+    "install": {
+      "status": "failed"
+    },
+    "registration": {
+      "status": "blocked"
+    },
+    "boot": {
+      "status": "not-run"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app"
+    ],
+    "dependencies": [],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "dff1a64042c523c83f8919d38266e5b346e3af506ed25344e6fd6a5c0f5f3840",
+  "testedAt": "2026-09-20T16:28:28.145Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6e890fa2c416767000300577e36b84795fe731e1",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "a38c9836b5c2cb35d4df09ca9df9913b111961428223cc75afcae7165e97e0f5",
+  "plugin": {
+    "name": "SongMiao-tech/dsh-prompt-optimizer",
+    "slug": "songmiao-tech-dsh-prompt-optimizer",
+    "install": "dsh plugin --profile web add github:SongMiao-tech/dsh-prompt-optimizer#4e304b82f5fbf508346cd460c349f730f3b4ca6f",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-prompt-optimizer"
+    ],
+    "dependencies": [
+      "dsh-prompt-optimizer"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "9886c5a9dde1525a41c8876f244c2036328cfaafbfec1ea70b8c954e23d6b9cd",
+  "testedAt": "2026-09-20T16:30:59.326Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6e890fa2c416767000300577e36b84795fe731e1",
+    "version": "1.0.0"
+  }
+}

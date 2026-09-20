@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "101d2e304e7cd6f976152f875423330d8c7180c77ca53df8264738a4ea89d551",
+  "plugin": {
+    "name": "SmileBuild/dsh-planchart",
+    "slug": "smilebuild-dsh-planchart",
+    "install": "dsh plugin --profile web add github:SmileBuild/dsh-planchart#e63a6359ed43e6ae35cac505f10a8d128f53eba7",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-planchart"
+    ],
+    "dependencies": [
+      "dsh-planchart"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "aa7abef9c6b39689f8f372ad6c904029c66fb26f5223a6488c9117e9ca4506d2",
+  "testedAt": "2026-09-20T16:29:43.807Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6e890fa2c416767000300577e36b84795fe731e1",
+    "version": "1.0.0"
+  }
+}

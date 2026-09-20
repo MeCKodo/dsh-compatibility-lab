@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "addfaad970f6d3a9af6f56773d0d1329fe3863b1a3c515a124a0c8a5cb8adb27",
+  "plugin": {
+    "name": "sqfcyily/dsh-workspace-files",
+    "slug": "sqfcyily-dsh-workspace-files",
+    "install": "dsh plugin --profile web add github:sqfcyily/dsh-workspace-files",
+    "profile": "web"
+  },
+  "environment": {
+    "id": "linux-x64-dsh-0.1.1-rc.2",
+    "label": "DSH 0.1.1-rc.2 on Linux x64",
+    "surface": "profile",
+    "os": "linux",
+    "arch": "x64",
+    "nodeVersion": "22",
+    "pnpmVersion": "10.34.5",
+    "dshVersion": "0.1.1-rc.2"
+  },
+  "status": "passed",
+  "detail": "plugin installed, registered, and booted the profile help surface",
+  "checks": {
+    "install": {
+      "status": "passed"
+    },
+    "registration": {
+      "status": "passed"
+    },
+    "boot": {
+      "status": "passed"
+    }
+  },
+  "observed": {
+    "bundles": [
+      "@deepseek-ai/dsh-base",
+      "@deepseek-ai/dsh-web-app",
+      "dsh-workspace-files"
+    ],
+    "dependencies": [
+      "dsh-workspace-files"
+    ],
+    "blockedBuildScripts": []
+  },
+  "outputDigest": "bf698a948eadb7e96d37ccdc99481cea590885dbb5ecb27d59d1188a4eb5c22c",
+  "testedAt": "2026-09-20T16:35:30.534Z",
+  "runner": {
+    "repository": "MeCKodo/dsh-compatibility-lab",
+    "revision": "6e890fa2c416767000300577e36b84795fe731e1",
+    "version": "1.0.0"
+  }
+}
