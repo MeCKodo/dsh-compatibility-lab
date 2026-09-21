@@ -34,18 +34,18 @@
     "bundles": [
       "@deepseek-ai/dsh-base",
       "@deepseek-ai/dsh-web-app",
-      "@dsh-external/dsh-visualize"
+      "@nagi-ovo/dsh-visualize"
     ],
     "dependencies": [
-      "@dsh-external/dsh-visualize"
+      "@nagi-ovo/dsh-visualize"
     ],
     "blockedBuildScripts": []
   },
-  "outputDigest": "8659154c86e885eda3dbf6161c7391e3c9caf6be5c6d468957dd7393383511b3",
-  "testedAt": "2026-09-13T21:11:40.426Z",
+  "outputDigest": "1e42e4513fb8336babcbba12541fdf5dbb496a0d230d5bc59203acd13afc0284",
+  "testedAt": "2026-09-21T05:28:25.147Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "4f13d1d75bc6f25c8c1c0d92a96f0a03c898cc2a",
+    "revision": "d61b4c466d104994570f7b39c55ecb8bba3ddeb7",
     "version": "1.0.0"
   }
 }
