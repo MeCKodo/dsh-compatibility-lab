@@ -17,35 +17,32 @@
     "pnpmVersion": "10.34.5",
     "dshVersion": "0.1.1-rc.2"
   },
-  "status": "passed",
-  "detail": "plugin installed, registered, and booted the profile help surface",
+  "status": "failed",
+  "detail": "package did not register as a profile bundle",
   "checks": {
     "install": {
-      "status": "passed"
+      "status": "failed"
     },
     "registration": {
-      "status": "passed"
+      "status": "failed"
     },
     "boot": {
-      "status": "passed"
+      "status": "not-run"
     }
   },
   "observed": {
     "bundles": [
       "@deepseek-ai/dsh-base",
-      "@deepseek-ai/dsh-web-app",
-      "dsh-vision-plugin"
+      "@deepseek-ai/dsh-web-app"
     ],
-    "dependencies": [
-      "dsh-vision-plugin"
-    ],
+    "dependencies": [],
     "blockedBuildScripts": []
   },
-  "outputDigest": "9d77fc8db87d0ba8f0e67106ba4b4be02d01fa2d99b82a7ef6c7fbf7c015655d",
-  "testedAt": "2026-09-14T05:23:16.089Z",
+  "outputDigest": "0a8e7af7f062febe9044bac8792c1d2dcb3159536fd9ac6cb569cda4a08f4c27",
+  "testedAt": "2026-09-21T13:17:40.193Z",
   "runner": {
     "repository": "MeCKodo/dsh-compatibility-lab",
-    "revision": "d1f22b7b642c23abd47bb446e350643a8f769863",
+    "revision": "bbb70d0a4e1505d07ec7b46a9bdf0a262b88557a",
     "version": "1.0.0"
   }
 }
